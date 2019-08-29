@@ -9,7 +9,7 @@ function p.hero_change_show(f)
     end
     local dataname='Data:'..pagename..'.json'
     local re----生成页面
-    local changelog=mw.huiji.db.find({['_id'] =dataname})[1][tonumber(pagename)]
+    local changelog=mw.huiji.db.find({['_id'] =dataname})[1]["changeData"]
     re='<h2>自机改动</h2>'
     for key,value in pairs(changelog) do
         if value["changeType"]=="自机改动" then
@@ -47,7 +47,7 @@ function p.card_change_show(f)
     end
     local dataname='Data:'..pagename..'.json'
     local re----生成页面
-    local changelog=mw.huiji.db.find({['_id'] =dataname})[1][tonumber(pagename)]
+    local changelog=mw.huiji.db.find({['_id'] =dataname})[1]["changeData"]
     re='<h2>兵种改动</h2>'
     for key,value in pairs(changelog) do
         if value["changeType"]=="兵种改动" then
