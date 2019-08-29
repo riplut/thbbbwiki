@@ -2,7 +2,7 @@ const fs = require('fs');
 const xlsx = require('xlsx');
 const Papa = require('papaparse');
 const _ = require('lodash');
-const version=20190812;
+const version=20190812;//版本号
 function loadlog(filename, sheetname) {
     const dir = 'database';
     const workbook = xlsx.readFile(`${dir}/${filename}.xlsx`);
