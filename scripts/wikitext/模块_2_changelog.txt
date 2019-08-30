@@ -30,7 +30,10 @@ function p.hero_change_show(f)
                 local changeskillNum='changeSkill'..i
                 if  value[changeskillNum][1] then
                     re=re..'<div>'..string.sub(db["skillData"][i]["skillName"][1],1,-4)..'</div>'
-                            ..'<li style="margin-left: 5rem>'..value[changeskillNum][1]..'</li>'
+                    for __key,__value in pairs(value[changeskillNum]) do
+                        re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
+                end
+
                 end
             end
             re=re..'</div>'
@@ -77,7 +80,9 @@ function p.card_change_show(f)
                 if  value[changeskillNum][1] then
                     re=re..'<div style="display:flex;flex-direction:row;justify-content: flex-start;align-items:center;">[[file:'..skillIcon[2]..'|x60px|link=]]'
                           ..'<div>'..db["upgradeSkill"][i]["name"]..'</div></div>'
-                          ..'<li style="margin-left: 5rem>'..value[changeskillNum][1]..'</li>'
+                    for __key,__value in pairs(value[changeskillNum]) do
+                        re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
+                    end
                 end
             end
             re=re..'</div>'
@@ -124,7 +129,9 @@ function p.show_hero_change(f)
                     local changeskillNum='changeSkill'..j
                     if  value['changeData'][i][changeskillNum][1] then
                         re=re..'<div>'..string.sub(herodb["skillData"][j]["skillName"][1],1,-4)..'</div>'
-                                ..'<li style="margin-left: 5rem>'..value['changeData'][i][changeskillNum][1]..'</li>'
+                        for __key,__value in pairs(value['changeData'][i][changeskillNum]) do
+                            re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
+                        end
                     end
                 end
             end
@@ -177,7 +184,9 @@ function p.show_card_change(f)
                     if  value['changeData'][i][changeskillNum][1] then
                         re=re..'<div style="display:flex;flex-direction:row;justify-content: flex-start;align-items:center;">[[file:'..skillIcon[2]..'|x60px|link=]]'
                                 ..'<div>'..carddb["upgradeSkill"][j]["name"]..'</div></div>'
-                                ..' <li style="margin-left: 5rem">'..value['changeData'][i][changeskillNum][1]..'</li>'
+                        for __key,__value in pairs(value['changeData'][i][changeskillNum]) do
+                            re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
+                        end
                     end
                 end
             end
