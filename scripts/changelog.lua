@@ -56,7 +56,7 @@ function p.card_change_show(f)
     re='<h2>兵种改动</h2>'
     for key,value in pairs(changelog) do
         if value["changeType"]=="兵种改动" then
-            local db=mw.huiji.db.find({["catagory"]="兵种",["cardID"]=value["toPage"]})[1]
+            local db=mw.huiji.db.find({["category"]="兵种",["cardID"]=value["toPage"]})[1]
             local skillIcon={}
             for i=1,2,1 do
                 if db["upgradeSkill"][i]["icon"]==db["upgradeSkill"][i]["view"] then
@@ -161,7 +161,7 @@ function p.show_card_change(f)
     options['sort']['version'] = -1
     db=mw.huiji.db.find(query,options)
     --获取当前兵种数据
-    local carddb=mw.huiji.db.find({["catagory"]="兵种",["cardID"]=pagename})[1]
+    local carddb=mw.huiji.db.find({["category"]="兵种",["cardID"]=pagename})[1]
     local skillIcon={}
     for i=1,2,1 do
         if carddb["upgradeSkill"][i]["icon"]==carddb["upgradeSkill"][i]["view"] then

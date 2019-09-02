@@ -1,5 +1,5 @@
 local p={}
-
+local OrderedTable = require('Module:OrderedTable')
 ----自机改动
 function p.hero_change_show(f)
     local pagename
@@ -17,10 +17,10 @@ function p.hero_change_show(f)
             local heroname='英雄'..string.sub(value["toPage"],1,-9)
             local db=mw.huiji.db.find({["unitId"]=heroname})[1]
             re=re..'<h3 class="bg-primary" style="padding:6px; overflow:hidden;font-size:14px;">'
-                ..'[[file:'..string.sub(value["toPage"],1,-9)..'.png|24px|link=]]&nbsp;'
-                ..'[['..value["toPage"]..']]'
-                ..'</h3>'
-                ..'<div style="padding:1em 0 1em 1em;margin-bottom:0.5em;">'
+                    ..'[[file:'..string.sub(value["toPage"],1,-9)..'.png|24px|link=]]&nbsp;'
+                    ..'[['..value["toPage"]..']]'
+                    ..'</h3>'
+                    ..'<div style="padding:1em 0 1em 1em;margin-bottom:0.5em;">'
             if value["change"] then
                 for _key,_value in pairs(value["change"]) do
                     re=re..'<li>'.._value..'</li>'
@@ -32,7 +32,7 @@ function p.hero_change_show(f)
                     re=re..'<div>'..string.sub(db["skillData"][i]["skillName"][1],1,-4)..'</div>'
                     for __key,__value in pairs(value[changeskillNum]) do
                         re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
-                end
+                    end
 
                 end
             end
@@ -56,7 +56,7 @@ function p.card_change_show(f)
     re='<h2>兵种改动</h2>'
     for key,value in pairs(changelog) do
         if value["changeType"]=="兵种改动" then
-            local db=mw.huiji.db.find({["catagory"]="兵种",["cardID"]=value["toPage"]})[1]
+            local db=mw.huiji.db.find({["category"]="兵种",["cardID"]=value["toPage"]})[1]
             local skillIcon={}
             for i=1,2,1 do
                 if db["upgradeSkill"][i]["icon"]==db["upgradeSkill"][i]["view"] then
@@ -78,8 +78,8 @@ function p.card_change_show(f)
             for i=1,2,1 do
                 local changeskillNum='changeSkill'..i
                 if  value[changeskillNum][1] then
-                    re=re..'<div style="display:flex;flex-direction:row;justify-content: flex-start;align-items:center;">[[file:'..skillIcon[2]..'|x60px|link=]]'
-                          ..'<div>'..db["upgradeSkill"][i]["name"]..'</div></div>'
+                    re=re..'<div style="display:flex;flex-direction:row;justify-content: flex-start;align-items:center;">[[file:'..skillIcon[i]..'|x60px|link=]]'
+                            ..'<div>'..db["upgradeSkill"][i]["name"]..'</div></div>'
                     for __key,__value in pairs(value[changeskillNum]) do
                         re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
                     end
@@ -104,16 +104,17 @@ function p.show_hero_change(f)
     local query={
         ['category']='更新日志'
     }
-    local options={
-        ['category']=1
+    local options = {
+        ['sort'] = OrderedTable()
     }
+    options['sort']['version'] = -1
     db=mw.huiji.db.find(query,options)
     --获取当前自机数据
     local heroname='英雄'..string.sub(pagename,1,-9)
     local herodb=mw.huiji.db.find({["unitId"]=heroname})[1]
     --开始生成页面
     re='<h2>历史改动</h2>'
-    ..'{{HuijiCollapsed|title=展开|ID=1|text='
+            ..'{{HuijiCollapsed|title=展开|ID=1|text='
     for key,value in pairs(db) do
         for i in ipairs(value['changeData']) do
             if value['changeData'][i]['toPage']==pagename then
@@ -154,9 +155,13 @@ function p.show_card_change(f)
     local query={
         ['category']='更新日志'
     }
-    db=mw.huiji.db.find(query)
+    local options = {
+        ['sort'] = OrderedTable()
+    }
+    options['sort']['version'] = -1
+    db=mw.huiji.db.find(query,options)
     --获取当前兵种数据
-    local carddb=mw.huiji.db.find({["catagory"]="兵种",["cardID"]=pagename})[1]
+    local carddb=mw.huiji.db.find({["category"]="兵种",["cardID"]=pagename})[1]
     local skillIcon={}
     for i=1,2,1 do
         if carddb["upgradeSkill"][i]["icon"]==carddb["upgradeSkill"][i]["view"] then
@@ -182,7 +187,7 @@ function p.show_card_change(f)
                 for j=1,2,1 do
                     local changeskillNum='changeSkill'..j
                     if  value['changeData'][i][changeskillNum][1] then
-                        re=re..'<div style="display:flex;flex-direction:row;justify-content: flex-start;align-items:center;">[[file:'..skillIcon[2]..'|x60px|link=]]'
+                        re=re..'<div style="display:flex;flex-direction:row;justify-content: flex-start;align-items:center;">[[file:'..skillIcon[j]..'|x60px|link=]]'
                                 ..'<div>'..carddb["upgradeSkill"][j]["name"]..'</div></div>'
                         for __key,__value in pairs(value['changeData'][i][changeskillNum]) do
                             re=re..'<li style="margin-left: 5rem>'..__value..'</li>'
@@ -196,4 +201,3 @@ function p.show_card_change(f)
     return f:preprocess(re)
 end
 return p
-

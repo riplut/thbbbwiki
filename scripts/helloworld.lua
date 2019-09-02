@@ -4,7 +4,8 @@
 --- DateTime: 2019/8/29 20:07
 ---
 local query={
-    ['category']='更新日志'
+    ['category']='更新日志',
+    i=4%2,
 }
 query['dfj']='fdasj'
 for k,v in pairs(query) do

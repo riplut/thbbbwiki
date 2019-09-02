@@ -9,7 +9,7 @@ function p.card_page_show(f)
     end
     local version=mw.huiji.db.find({['_id'] ='Data:Version.json'})[1]
     local features=mw.huiji.db.find({['_id'] ='Data:Feature.json'})[1]["features"]
-    local db=mw.huiji.db.find({["catagory"]="兵种",["cardID"]=pagename})[1]
+    local db=mw.huiji.db.find({["category"]="兵种",["cardID"]=pagename})[1]
     local feature=db["features"]
     local feature_Max=table.getn(feature)
     local skillIcon={}----防止技能icon跟技能view重名
@@ -147,7 +147,7 @@ function p.card_page_show(f)
         end
     end
     re=re..'[[category:'..db["rank"]..']]'
-    ..'[[category:'..db["catagory"]..']]'
+    ..'[[category:'..db["category"]..']]'
     if db["origin"]~='' then
         re=re..'[[category:'..db["origin"]..']]'
     end
