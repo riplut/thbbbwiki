@@ -35,5 +35,11 @@ function p.get_card_data(frame)
     local result = mw.huiji.db.find(query, options)
     return result
 end
-
+function p.get_dict(frame)
+    local query = {
+        ['_id'] ='Data:Locales.json'
+    }
+    local result = mw.huiji.db.findOne(query)
+    return result
+end
 return p

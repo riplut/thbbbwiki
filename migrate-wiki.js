@@ -2,9 +2,11 @@ const fs = require('fs');
 const xlsx = require('xlsx');
 const Papa = require('papaparse');
 const _ = require('lodash');
-const version=20190830;//版本号
+const path = require('path');
+const version=20190906;//版本号
+module.exports.version = version;
 function loadlog(filename, sheetname) {
-    const dir = 'database';
+    const dir = path.join('database', 'changelog');
     const workbook = xlsx.readFile(`${dir}/${filename}.xlsx`);
     const sheet = workbook.Sheets[sheetname || workbook.SheetNames[0]];
     const data = xlsx.utils.sheet_to_csv(sheet);

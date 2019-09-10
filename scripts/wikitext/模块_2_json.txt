@@ -1,11 +1,24 @@
 local p={}
-
+---翻译模块
+local ch=require('Module:Translate').ch
+local en=require('Module:Translate').en
+local jp=require('Module:Translate').jp
+local ko=require('Module:Translate').ko
 function p.hero_skill_show(f)
     local pagename
+    local tr
+    pagename=f.args[1]
     if(f.args[2]==nil or f.args[2]=="")then
-        pagename=f.args[1]
-    else
-        pagename=f.args[2]
+        tr=ch
+    end
+
+    if f.args[2]=='ch' then tr=ch
+    else if f.args[2]=='en' then tr=en
+    else if f.args[2]=='jp' then tr=jp
+            else if f.args[2]=='ko' then tr=ko
+                end
+            end
+        end
     end
     local db=mw.huiji.db.find({["unitId"]=pagename})[1]
     local re
@@ -26,13 +39,13 @@ function p.hero_skill_show(f)
         if j<=2 then
             for i=1,4,1 do
                 re=re..'|'..string.sub(db["skillData"][j]["skillName"][i],-3)
-                        ..'|冷却时间：'..db["skillData"][j]["cooldown"][i]..'s<br>'..db["skillData"][j]["skillDesc"][i]
+                        ..'|冷却时间：'..db["skillData"][j]["cooldown"][i]..'s<br>'..tr(db["skillData"][j]["skillDesc"][i])
 
             end
         else
             for i=1,2,1 do
                 re=re..'|'..string.sub(db["skillData"][j]["skillName"][i],-3)
-                        ..'|冷却时间：'..db["skillData"][j]["cooldown"][i]..'s<br>'..db["skillData"][j]["skillDesc"][i]
+                        ..'|冷却时间：'..db["skillData"][j]["cooldown"][i]..'s<br>'..tr(db["skillData"][j]["skillDesc"][i])
 
             end
         end
