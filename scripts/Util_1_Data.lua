@@ -42,4 +42,11 @@ function p.get_dict(frame)
     local result = mw.huiji.db.findOne(query)
     return result
 end
+function p.get_version(frame)
+    local query = {
+        ['_id'] ='Data:Version.json'
+    }
+    local result = mw.huiji.db.findOne(query).version
+    return result
+end
 return p

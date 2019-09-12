@@ -43,14 +43,16 @@ function p.card_page_show(f)
             ..'__HIDDENCAT__'
     if(f.args[2]==nil or f.args[2]=="" or f.args[2]=="ch")then
         re=re..'<ul class="tbui-nav-pills nav nav-pills"><li role="presentation" class="active">[['..pagename..'|中文]]</li>'
-    ..'<li role="presentation" >[['..pagename..'/EN|English]]</li></ul>'
+    ..'<li role="presentation" >[['..pagename..'/EN|EN]]</li></ul>'
+    --..'<li role="presentation" >[['..pagename..'/JP|日本語]]</li></ul>'
+    --..'<li role="presentation" >[['..pagename..'/KO|한국어]]</li></ul>'
     end
 
     if f.args[2]=='en' then
         re=re..'<ul class="tbui-nav-pills nav nav-pills"><li role="presentation">[['..pagename..'|中文]]</li>'
-    ..'<li role="presentation" class="active">[['..pagename..'/EN|English]]</li></ul>'
+    ..'<li role="presentation" class="active">[['..pagename..'/EN|EN]]</li></ul>'
     end
-    re=re..'<div style="float:right">version：'..version["version"]..'</div>'
+    re=re..'<div style="float:right">'..tr('版本')..':'..version["version"]..'</div>'
             ..'<div class="cardinfo">'
             ..'<div class="cardinfo-maininfo">'
             ..'<div class="cardinfo-maininfo-group1">'
@@ -63,7 +65,7 @@ function p.card_page_show(f)
             ..'</div>'
             ..'<div class="cardinfo-maininfo-group2-line2">'
             ..'<div class="cardinfo-shortName">'..tr(db["fullName"])..'</div>'
-            ..'<div class="cardinfo-origin">'..db["origin"]..'</div>'
+            ..'<div class="cardinfo-origin">'..tr(db["origin"])..'</div>'
             ..'<div class="cardinfo-bluepoint">[[file:货币 蓝点.png|x25px|link=]]</div>'
             ..'<div class="cardinfo-price">'..db["price"]..'</div>'
             ..'</div>'
@@ -114,9 +116,9 @@ function p.card_page_show(f)
             ..'<div class="meta-item-value">'..db["speed"]..'/s</div>'
             ..'</div>'
             ..'</div>'
-    re=re..'<h2>台词</h2>'
-    re=re..db["speech"]
-    re=re..'<h2>技能</h2>'
+    re=re..'<h2>'..tr('台词')..'</h2>'
+    re=re..tr(db["speech"])
+    re=re..'<h2>'..tr('技能')..'</h2>'
             ..'<div class="cardinfo-group">'
             ..'<div class="cardinfo-group1">'
             ..'<div class="cardinfo-skill-img">[[file:'..db["upgradeSkill"][1]["view"]..'|x175px|link=]]</div>'
@@ -150,14 +152,20 @@ function p.card_page_show(f)
             ..'</div>'
             ..'</div>'
     for _,feature_id in pairs(db["features"]) do
-        re=re..'[[category:'..feature_id..']]'
+        re=re..'[[category:'..tr(feature_id)..']]'
     end
     re=re..'[[category:'..db["rank"]..']]'
-            ..'[[category:'..db["category"]..']]'
+            ..'[[category:'..tr(db["category"])..']]'
     if db["origin"]~='' then
-        re=re..'[[category:'..db["origin"]..']]'
+        re=re..'[[category:'..tr(db["origin"])..']]'
     end
-    re=re..'{{#set:|name zh='..pagename..'}}'
+    re=re..'{{#set:|name tr='..pagename
+    if(f.args[2]~=nil and f.args[2]~="")then
+            re=re..'/'..string.upper(f.args[2] or '')
+    end
+    re=re..'|id='..db["id"]
+            ..'|tr='..(f.args[2] or 'ch')
+            ..'}}'
     return f:preprocess(re)
 end
 

@@ -1,4 +1,5 @@
-const version = require('./migrate-wiki');
+// const version = require('./migrate-wiki');
+const version={ version: 20190910 };
 const fs = require('fs');
 const xlsx = require('xlsx');
 const Papa = require('papaparse');
@@ -76,11 +77,12 @@ for (const item of publishedCard) {
     cardID: []
   };
   itemtemp.id=item.id;
+  itemtemp.oderID=item.cardID;
   itemtemp.cardID = item.cardName;
   itemtemp.shortName = getVal(item.cardName, constructions, '短名');
   itemtemp.fullName = getVal(item.cardName, constructions, '全名');
   itemtemp.rank = level.get(getVal(item.cardName, constructions, '级别'));
-  itemtemp.origin = getVal(item.cardName, constructions, '作品') || '';
+  itemtemp.origin = getVal(item.cardName, constructions, '作品') || '其他';
   itemtemp.price = getVal(item.cardName, constructions, 'price');
   itemtemp.description = getVal(item.cardName, constructions, 'description');
   itemtemp.speech = getVal(item.cardName, constructions, 'speech');
@@ -96,12 +98,14 @@ for (const item of publishedCard) {
   }
   itemtemp.hp = getVal(item.cardName, constructions, '血量');
   itemtemp.armor = getVal(item.cardName, constructions, '护甲');
-  itemtemp.slowspeed = getVal(item.cardName, units, 'slowspeed');
-  itemtemp.speed = getVal(item.cardName, units, 'speed');
-  itemtemp.sight = getVal(item.cardName, units, '视野');
+  const unit=getVal(item.cardName, constructions, 'unit');
+  itemtemp.slowspeed = getVal(unit, units, 'slowspeed');
+  itemtemp.speed = getVal(unit, units, 'speed');
+  itemtemp.sight = getVal(unit, units, '视野');
   itemtemp.attack = getVal(item.cardName, constructions, '攻击');
-  itemtemp.attackSpeed = getVal(getVal(item.cardName, units, 'skill_0_id'), skills, 'agi');
-  itemtemp.distance = getVal(getVal(item.cardName, units, 'skill_0_id'), skills, 'distance');
+
+  itemtemp.attackSpeed = getVal(getVal(unit, units, 'skill_0_id'), skills, 'agi');
+  itemtemp.distance = getVal(getVal(unit, units, 'skill_0_id'), skills, 'distance');
   itemtemp.upgradeSkill = [{}, {}];
   //升级技能
   for (i = 0; i < 2; i++) {
@@ -141,7 +145,7 @@ for (const item of heroes) {
       itemtemp.skillData[i].skillDesc=[];
       itemtemp.skillData[i].cooldown=[];
       skill[i] = getItem( getVal(item.unit, units, `skill_${i+9}_id`),skills);
-      itemtemp.skillIcon.push(skill[i].image)
+      itemtemp.skillIcon.push(skill[i].image);
       do {
         itemtemp.skillData[i].skillName.push(skill[i].name);
         itemtemp.skillData[i].skillCost.push(skill[i].mp);
@@ -151,8 +155,6 @@ for (const item of heroes) {
         skill[i]=skill[i]||[];
       }while (skill[i].id);
     }
-
-
     const outputName = item.id;
     save(`${outputName}`, itemtemp);
   }
@@ -175,8 +177,10 @@ const _locales = {
   constructions_description: load('locales', 'constructions_description'),
   constructions_speech: load('locales', 'constructions_speech'),
   tips_名字: load('locales', 'tips_名字'),
+  skills_name: load('locales', 'skills_name'),
   tips_描述: tips_描述,
-  skills_技能介绍: load('data', 'skills_技能介绍')
+  skills_技能介绍: load('data', 'skills_技能介绍'),
+  wiki: load('wiki/wiki_Locales' )
 };
 for (let data of [...Object.values(_locales)]) {
   _.remove(data, item => item.id === null || item.id === undefined);

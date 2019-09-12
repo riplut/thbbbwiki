@@ -22,7 +22,7 @@ function p.hero_skill_show(f)
     end
     local db=mw.huiji.db.find({["unitId"]=pagename})[1]
     local re
-    re='<h2>技能</h2>'
+    re='<h2>'..tr('技能')..'</h2>'
     for j=1,3,1 do
         re=re..'<div class="cardinfo-group">'
         ..'<div class="cardinfo-group1">'
@@ -30,7 +30,7 @@ function p.hero_skill_show(f)
         ..'</div>'
         ..'<div class="cardinfo-group2">'
         ..'<div class="cardinfo-group2-line1">'
-        ..'<div class="cardinfo-skill-title">'..string.sub(db["skillData"][j]["skillName"][1],1,-4)..'</div>'
+        ..'<div class="cardinfo-skill-title">'..string.sub(tr(db["skillData"][j]["skillName"][1]),1,-4)..'</div>'
         ..'<div class="cardinfo-skill-belief">[[file:P.png|x25px|link=[[p点]]]]</div>'
         ..'<div class="cardinfo-skill-cost">'..db["skillData"][j]["skillCost"][1]..'</div>'
         ..'</div>'
@@ -39,13 +39,13 @@ function p.hero_skill_show(f)
         if j<=2 then
             for i=1,4,1 do
                 re=re..'|'..string.sub(db["skillData"][j]["skillName"][i],-3)
-                        ..'|冷却时间：'..db["skillData"][j]["cooldown"][i]..'s<br>'..tr(db["skillData"][j]["skillDesc"][i])
+                        ..'|'..tr('冷却时间')..'：'..db["skillData"][j]["cooldown"][i]..'s<br>'..tr(db["skillData"][j]["skillDesc"][i])
 
             end
         else
             for i=1,2,1 do
                 re=re..'|'..string.sub(db["skillData"][j]["skillName"][i],-3)
-                        ..'|冷却时间：'..db["skillData"][j]["cooldown"][i]..'s<br>'..tr(db["skillData"][j]["skillDesc"][i])
+                        ..'|'..tr('冷却时间')..'：'..db["skillData"][j]["cooldown"][i]..'s<br>'..tr(db["skillData"][j]["skillDesc"][i])
 
             end
         end
@@ -55,7 +55,8 @@ function p.hero_skill_show(f)
         ..'</div>'
         ..'</div>'
     end
-    re=re..'{{#set:|name zh='..pagename..'}}'
+    re=re..'{{#set:|name zh='..pagename
+            ..'|tr='..(f.args[2] or 'ch')..'}}'
     return f:preprocess(re)
 end
 
