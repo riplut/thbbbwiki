@@ -99,7 +99,7 @@ function p.card_list(frame)
         tr:tag('td'):attr('data-sort-value', card_info.attackSpeed):addClass('small'):cssText('text-align:center;'):wikitext(card_info.attackSpeed)
         tr:tag('td'):attr('data-sort-value', card_info.slowspeed):addClass('small'):cssText('text-align:center;'):wikitext(card_info.slowspeed)
         --tr:tag('td'):attr('data-sort-value', card_info.sight):addClass('small'):cssText('text-align:center;'):wikitext(card_info.sight)
-        tr:tag('td'):attr('data-sort-value', card_info.attackDistance):addClass('small'):cssText('text-align:center;'):wikitext(card_info.attackDistance)
+        tr:tag('td'):attr('data-sort-value', card_info.attackDistance):addClass('small'):cssText('text-align:center;'):wikitext(card_info.distance)
         tr:tag('td'):attr('data-sort-value', card_info.speed):addClass('small'):cssText('text-align:center;'):wikitext(card_info.speed):done()
     end
     return tostring(html)
