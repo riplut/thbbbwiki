@@ -1,0 +1,44 @@
+{
+  "cardID": "青娥",
+  "id": 44,
+  "oderID": 57,
+  "shortName": "青娥",
+  "fullName": "霍青娥",
+  "rank": "A",
+  "origin": "其他",
+  "price": 27,
+  "description": "霍青娥的介绍",
+  "speech": "霍青娥的台词",
+  "features": [
+    "对地",
+    "飞行",
+    "远程",
+    "施法者",
+    "养小鬼"
+  ],
+  "hp": 52,
+  "armor": 2,
+  "slowspeed": 3.3,
+  "speed": 4,
+  "sight": 18,
+  "attack": 21,
+  "attackSpeed": 0,
+  "distance": 9,
+  "upgradeSkill": [
+    {
+      "name": "入魔「走火入魔」",
+      "introduction": "霍青娥1升级",
+      "icon": "霍青娥狂暴.png",
+      "view": "洛天依狂暴.png",
+      "cost": 5
+    },
+    {
+      "name": "仙术「穿墙虫洞」",
+      "introduction": "霍青娥2升级",
+      "icon": "霍青娥穿墙.png",
+      "view": "洛天依传送.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

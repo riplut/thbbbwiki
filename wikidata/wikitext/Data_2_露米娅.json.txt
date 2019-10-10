@@ -1,0 +1,45 @@
+{
+  "cardID": "露米娅",
+  "id": 1,
+  "oderID": 2,
+  "shortName": "露米娅",
+  "fullName": "露米娅",
+  "rank": "C",
+  "origin": "红魔乡",
+  "price": 7,
+  "description": "露米娅的介绍",
+  "speech": "露米娅的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "肉盾",
+    "扰乱",
+    "高血量"
+  ],
+  "hp": 40,
+  "armor": 3,
+  "slowspeed": 3.5,
+  "speed": 6.5,
+  "sight": 12,
+  "attack": 8,
+  "attackSpeed": 2.1,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "暗符「黑洞」",
+      "introduction": "露米娅1升级",
+      "icon": "露米娅-更黑.png",
+      "view": "露米娅：更黑.png",
+      "cost": 2
+    },
+    {
+      "name": "夜符「无尽黑夜」",
+      "introduction": "露米娅2升级",
+      "icon": "露米娅-持续黑.png",
+      "view": "露米娅：一直黑.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

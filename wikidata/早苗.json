@@ -1,0 +1,47 @@
+{
+  "cardID": "早苗",
+  "id": 33,
+  "oderID": 14,
+  "shortName": "早苗",
+  "fullName": "东风谷早苗",
+  "rank": "A",
+  "origin": "风神录",
+  "price": 22,
+  "description": "早苗的介绍",
+  "speech": "早苗的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "辅助",
+    "破坏阵型",
+    "治疗",
+    "巫女",
+    "手短"
+  ],
+  "hp": 68,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 12,
+  "attackSpeed": 1.85,
+  "distance": 7,
+  "upgradeSkill": [
+    {
+      "name": "奇迹「八坂的神风」",
+      "introduction": "早苗1升级",
+      "icon": "早苗-吹飞.png",
+      "view": "早苗：风祈.png",
+      "cost": 4
+    },
+    {
+      "name": "奇迹「白昼的新星」",
+      "introduction": "早苗2升级",
+      "icon": "早苗-加防.png",
+      "view": "早苗：奇迹.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,46 @@
+{
+  "cardID": "帕秋莉",
+  "id": 42,
+  "oderID": 51,
+  "shortName": "帕秋莉",
+  "fullName": "帕秋莉·诺蕾姬",
+  "rank": "A",
+  "origin": "红魔乡",
+  "price": 32,
+  "description": "帕秋莉的介绍",
+  "speech": "帕秋莉的台词",
+  "features": [
+    "对空/地",
+    "飞行",
+    "远程",
+    "施法者",
+    "三连发",
+    "高伤害",
+    "病弱"
+  ],
+  "hp": 55,
+  "armor": 1,
+  "slowspeed": 3,
+  "speed": 4.5,
+  "sight": 18,
+  "attack": "12*3",
+  "attackSpeed": 0.42,
+  "distance": 9,
+  "upgradeSkill": [
+    {
+      "name": "火符「大爆炸」",
+      "introduction": "帕秋莉火1升级",
+      "icon": "图书1.png",
+      "view": "图书火球.png",
+      "cost": 4
+    },
+    {
+      "name": "火符「火墙」",
+      "introduction": "帕秋莉火2升级",
+      "icon": "图书2.png",
+      "view": "图书火墙.png",
+      "cost": 6
+    }
+  ],
+  "category": "兵种"
+}

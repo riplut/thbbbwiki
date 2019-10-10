@@ -1,0 +1,45 @@
+{
+  "cardID": "映姬",
+  "id": 59,
+  "oderID": 64,
+  "shortName": "映姬",
+  "fullName": "四季映姬·亚玛萨那度",
+  "rank": "S",
+  "origin": "花映冢",
+  "price": 42,
+  "description": "映姬的介绍",
+  "speech": "映姬的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "穿透",
+    "阎王"
+  ],
+  "hp": 68,
+  "armor": 2,
+  "slowspeed": 3.6,
+  "speed": 6.5,
+  "sight": 14,
+  "attack": 12,
+  "attackSpeed": 0.9,
+  "distance": 7.5,
+  "upgradeSkill": [
+    {
+      "name": "说教「弹幕喷射」",
+      "introduction": "映姬1升级",
+      "icon": "四季映姬-说教.png",
+      "view": "四季：说教.png",
+      "cost": 3
+    },
+    {
+      "name": "审判「净颇梨审判」",
+      "introduction": "映姬2升级",
+      "icon": "四季映姬-镜子.png",
+      "view": "四季：镜.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

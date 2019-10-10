@@ -1,0 +1,47 @@
+{
+  "cardID": "蕾蒂",
+  "id": 16,
+  "oderID": 12,
+  "shortName": "蕾蒂",
+  "fullName": "蕾蒂怀特洛克",
+  "rank": "B",
+  "origin": "妖妖梦",
+  "price": 16,
+  "description": "蕾蒂的介绍",
+  "speech": "蕾蒂的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "施法者",
+    "暴风雪",
+    "减速",
+    "AOE",
+    "手短"
+  ],
+  "hp": 57,
+  "armor": 1,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 6,
+  "attackSpeed": 0.985,
+  "distance": 6.5,
+  "upgradeSkill": [
+    {
+      "name": "寒符「关节炎」",
+      "introduction": "蕾蒂1升级",
+      "icon": "蕾蒂-积雪.png",
+      "view": "蕾蒂：提升减速.png",
+      "cost": 5
+    },
+    {
+      "name": "冬符「皮肤干裂」",
+      "introduction": "蕾蒂2升级",
+      "icon": "蕾蒂-暴风雪.png",
+      "view": "蕾蒂：冰冻脆弱.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

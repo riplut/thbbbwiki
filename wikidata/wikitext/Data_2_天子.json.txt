@@ -1,0 +1,45 @@
+{
+  "cardID": "天子",
+  "id": 38,
+  "oderID": 22,
+  "shortName": "天子",
+  "fullName": "比那名居天子",
+  "rank": "A",
+  "origin": "其他",
+  "price": 25,
+  "description": "天子的介绍",
+  "speech": "天子的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "肉盾",
+    "要石",
+    "持续火力"
+  ],
+  "hp": 86,
+  "armor": 5,
+  "slowspeed": 3.2,
+  "speed": 7,
+  "sight": 18,
+  "attack": 22,
+  "attackSpeed": 1.3,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "要石「天空之灵石」",
+      "introduction": "天子1升级",
+      "icon": "天子_天上.png",
+      "view": "天子：石浮游炮.png",
+      "cost": 4
+    },
+    {
+      "name": "剑技「绯想之剑」",
+      "introduction": "天子2升级",
+      "icon": "天子_地下.png",
+      "view": "天子：绯想之剑.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,48 @@
+{
+  "cardID": "大妖精",
+  "id": 3,
+  "oderID": 4,
+  "shortName": "大妖精",
+  "fullName": "大妖精",
+  "rank": "C",
+  "origin": "红魔乡",
+  "price": 4,
+  "description": "大妖精的介绍",
+  "speech": "大妖精的台词",
+  "features": [
+    "对地",
+    "地面",
+    "远程",
+    "特殊",
+    "妖精",
+    "牺牲",
+    "快速",
+    "脆皮",
+    "杂鱼"
+  ],
+  "hp": 18,
+  "armor": 1,
+  "slowspeed": 5,
+  "speed": 7.5,
+  "sight": 12,
+  "attack": 5,
+  "attackSpeed": 0.9,
+  "distance": 5,
+  "upgradeSkill": [
+    {
+      "name": "妖精「可爱的大妖精」",
+      "introduction": "大妖精1升级",
+      "icon": "大妖精-加伤魂.png",
+      "view": "大妖精：祝福.png",
+      "cost": 1
+    },
+    {
+      "name": "妖精「温柔的大妖精」",
+      "introduction": "大妖精2升级",
+      "icon": "大妖精-治疗魂.png",
+      "view": "大妖精：保护.png",
+      "cost": 1
+    }
+  ],
+  "category": "兵种"
+}

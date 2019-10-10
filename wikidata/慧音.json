@@ -1,0 +1,46 @@
+{
+  "cardID": "慧音",
+  "id": 21,
+  "oderID": 41,
+  "shortName": "慧音",
+  "fullName": "上白泽慧音",
+  "rank": "B",
+  "origin": "永夜抄",
+  "price": 20,
+  "description": "慧音的介绍",
+  "speech": "慧音的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "施法者",
+    "扰乱",
+    "治疗",
+    "控制"
+  ],
+  "hp": 36,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 18,
+  "attack": 14,
+  "attackSpeed": 1,
+  "distance": 7.5,
+  "upgradeSkill": [
+    {
+      "name": "转世「一条归桥」",
+      "introduction": "慧音1升级",
+      "icon": "慧音历史.png",
+      "view": "慧音：隐藏历史.png",
+      "cost": 5
+    },
+    {
+      "name": "新史「历史发明」",
+      "introduction": "慧音2升级",
+      "icon": "慧音牛.png",
+      "view": "慧音：吃历史.png",
+      "cost": 1
+    }
+  ],
+  "category": "兵种"
+}

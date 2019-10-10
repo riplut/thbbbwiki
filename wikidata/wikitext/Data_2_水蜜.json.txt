@@ -1,0 +1,49 @@
+{
+  "cardID": "水蜜",
+  "id": 36,
+  "oderID": 19,
+  "shortName": "水蜜",
+  "fullName": "村纱水蜜",
+  "rank": "A",
+  "origin": "星莲船",
+  "price": 32,
+  "description": "水蜜的介绍",
+  "speech": "水蜜的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "肉盾",
+    "船长",
+    "控制",
+    "突进",
+    "高血量",
+    "死亡飞船",
+    "低攻速"
+  ],
+  "hp": 108,
+  "armor": 5,
+  "slowspeed": 3.5,
+  "speed": 6.5,
+  "sight": 18,
+  "attack": 26,
+  "attackSpeed": 0.4,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "船符「家族旅行」",
+      "introduction": "船长1升级",
+      "icon": "船长-船.png",
+      "view": "村纱水蜜：造船.png",
+      "cost": 4
+    },
+    {
+      "name": "锚符「紧急靠岸」",
+      "introduction": "船长2升级",
+      "icon": "船长-船锚.png",
+      "view": "村纱水蜜：丢锚.png",
+      "cost": 6
+    }
+  ],
+  "category": "兵种"
+}

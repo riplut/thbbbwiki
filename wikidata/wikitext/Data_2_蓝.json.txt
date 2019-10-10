@@ -1,0 +1,50 @@
+{
+  "cardID": "蓝",
+  "id": 34,
+  "oderID": 15,
+  "shortName": "蓝",
+  "fullName": "八云蓝",
+  "rank": "A",
+  "origin": "妖妖梦",
+  "price": 33,
+  "description": "蓝的介绍",
+  "speech": "蓝的台词",
+  "features": [
+    "对地",
+    "地面",
+    "远程",
+    "召唤师",
+    "橙",
+    "弹幕",
+    "手长",
+    "突进",
+    "破坏阵型",
+    "本体废柴",
+    "脆皮"
+  ],
+  "hp": 38,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 9,
+  "attackSpeed": 0.75,
+  "distance": 9.5,
+  "upgradeSkill": [
+    {
+      "name": "幻神「饭纲权现降临」",
+      "introduction": "蓝1升级",
+      "icon": "蓝-BUFF.png",
+      "view": "八云蓝：饭钢权现降临.png",
+      "cost": 4
+    },
+    {
+      "name": "式神「指令攻击」",
+      "introduction": "蓝2升级",
+      "icon": "蓝-橙晕.png",
+      "view": "八云蓝：指令攻击.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

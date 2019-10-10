@@ -1,0 +1,47 @@
+{
+  "cardID": "椛",
+  "id": 14,
+  "oderID": 9,
+  "shortName": "椛",
+  "fullName": "犬走椛",
+  "rank": "B",
+  "origin": "风神录",
+  "price": 14,
+  "description": "椛的介绍",
+  "speech": "椛的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "肉盾",
+    "格挡",
+    "高护甲",
+    "扰乱",
+    "便宜"
+  ],
+  "hp": 44,
+  "armor": 5,
+  "slowspeed": 3.5,
+  "speed": 4.5,
+  "sight": 12,
+  "attack": 11,
+  "attackSpeed": 1.2,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "盾符「天狗保安」",
+      "introduction": "狗花1升级",
+      "icon": "椛-格挡.png",
+      "view": "犬走椛：防御.png",
+      "cost": 5
+    },
+    {
+      "name": "狗符「狂犬病」",
+      "introduction": "狗花2升级",
+      "icon": "椛-狗叫.png",
+      "view": "犬走椛：狗叫.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,84 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "天子(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "持续时间7/12→4/8"
+      ],
+      "change": []
+    },
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "文",
+      "changeSkill1": [
+        "取消了伤害，会使基础移动移速由4.1提升到7",
+        "费用4→3"
+      ],
+      "changeSkill2": [
+        "费用8→7"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "攻击力16→15",
+        "移速6→4.1",
+        "攻击速度1.85→2.3",
+        "血量82→73",
+        "护甲2→3"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "露米娅",
+      "changeSkill1": [
+        "致盲效果35%→65%",
+        "周围的友方也会致盲20%"
+      ],
+      "changeSkill2": [
+        "现在血量少于60%时，攻击速度和移动速度会增加75%，击杀敌人时血量会回复24点",
+        "费用1→2"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "小幅度机制重做",
+        "被动的操纵黑暗移除",
+        "攻击速度1.92→2.1"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "桑尼",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "减伤35%→25%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "斯塔",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "攻速36%→30%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20190920",
+  "category": "更新日志"
+}

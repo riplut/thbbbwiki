@@ -1,5 +1,5 @@
 // const version = require('./migrate-wiki');
-const version={ version: 20190920 };
+const version={ version: 20190929 };
 const fs = require('fs');
 const xlsx = require('xlsx');
 const Papa = require('papaparse');

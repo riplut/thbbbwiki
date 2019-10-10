@@ -1,0 +1,49 @@
+{
+  "cardID": "桑尼",
+  "id": 8,
+  "oderID": 46,
+  "shortName": "桑尼",
+  "fullName": "桑尼·米尔克",
+  "rank": "C",
+  "origin": "其他",
+  "price": 6,
+  "description": "桑尼的介绍",
+  "speech": "桑尼的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "战士",
+    "妖精",
+    "日光",
+    "扰乱",
+    "便宜",
+    "快速",
+    "脆皮"
+  ],
+  "hp": 32,
+  "armor": 1,
+  "slowspeed": 4.5,
+  "speed": 6.5,
+  "sight": 14,
+  "attack": 6,
+  "attackSpeed": 1.65,
+  "distance": 2.5,
+  "upgradeSkill": [
+    {
+      "name": "光符「明晃晃」",
+      "introduction": "桑尼1升级",
+      "icon": "桑尼1.png",
+      "view": "桑尼：日光.png",
+      "cost": 1
+    },
+    {
+      "name": "三月精「日之光」",
+      "introduction": "桑尼2升级",
+      "icon": "桑尼2.png",
+      "view": "三月精：在一起.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

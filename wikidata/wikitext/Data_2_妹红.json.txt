@@ -1,0 +1,50 @@
+{
+  "cardID": "妹红",
+  "id": 53,
+  "oderID": 37,
+  "shortName": "妹红",
+  "fullName": "藤原妹红",
+  "rank": "S",
+  "origin": "永夜抄",
+  "price": 39,
+  "description": "妹红的介绍",
+  "speech": "妹红的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "刺客",
+    "不死鸟",
+    "不死",
+    "自爆",
+    "破坏阵型",
+    "高伤害",
+    "脆皮",
+    "容易送"
+  ],
+  "hp": 58,
+  "armor": 4,
+  "slowspeed": 4.2,
+  "speed": 10,
+  "sight": 18,
+  "attack": 30,
+  "attackSpeed": 1.85,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "不灭「火鸟」",
+      "introduction": "妹红1升级",
+      "icon": "妹红-鸟.png",
+      "view": "妹红：火鸟.png",
+      "cost": 7
+    },
+    {
+      "name": "不死「自燃重生」",
+      "introduction": "妹红2升级",
+      "icon": "妹红-复活爆炸.png",
+      "view": "妹红：复活爆炸.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

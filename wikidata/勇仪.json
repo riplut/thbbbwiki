@@ -1,0 +1,48 @@
+{
+  "cardID": "勇仪",
+  "id": 52,
+  "oderID": 25,
+  "shortName": "勇仪",
+  "fullName": "星熊勇仪",
+  "rank": "S",
+  "origin": "地灵殿",
+  "price": 42,
+  "description": "勇仪的介绍",
+  "speech": "勇仪的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "肉盾",
+    "独角",
+    "喝酒",
+    "鬼",
+    "高血量",
+    "贵"
+  ],
+  "hp": 140,
+  "armor": 6,
+  "slowspeed": 3.5,
+  "speed": 6.5,
+  "sight": 18,
+  "attack": 24,
+  "attackSpeed": 1.3,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "酒宴「不坏之身」",
+      "introduction": "勇仪1升级",
+      "icon": "勇仪-喝酒.png",
+      "view": "勇仪：喝酒.png",
+      "cost": 5
+    },
+    {
+      "name": "鬼声「坏灭之咆哮」",
+      "introduction": "勇仪2升级",
+      "icon": "勇仪-震晕.png",
+      "view": "勇仪：鬼气.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,48 @@
+{
+  "cardID": "衣玖",
+  "id": 37,
+  "oderID": 21,
+  "shortName": "衣玖",
+  "fullName": "永江衣玖",
+  "rank": "A",
+  "origin": "其他",
+  "price": 25,
+  "description": "衣玖的介绍",
+  "speech": "衣玖的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "施法者",
+    "电流",
+    "闪电",
+    "破坏阵型",
+    "高伤害",
+    "手短"
+  ],
+  "hp": 70,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 18,
+  "attack": 11,
+  "attackSpeed": 1,
+  "distance": 5.75,
+  "upgradeSkill": [
+    {
+      "name": "棘符「雷云棘鱼」",
+      "introduction": "衣玖1升级",
+      "icon": "19-电圈.png",
+      "view": "衣玖：雷云棘鱼.png",
+      "cost": 6
+    },
+    {
+      "name": "电符「雷鼓弾」",
+      "introduction": "衣玖2升级",
+      "icon": "19-弹射闪电.png",
+      "view": "衣玖：雷鼓弹.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

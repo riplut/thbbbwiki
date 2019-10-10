@@ -1,0 +1,47 @@
+{
+  "cardID": "布都",
+  "id": 45,
+  "oderID": 59,
+  "shortName": "布都",
+  "fullName": "物部布都",
+  "rank": "A",
+  "origin": "神灵庙",
+  "price": 25,
+  "description": "布都的介绍",
+  "speech": "布都的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "刺客",
+    "太乙真火",
+    "炎风",
+    "控制",
+    "破坏阵型"
+  ],
+  "hp": 63,
+  "armor": 4,
+  "slowspeed": 3.4,
+  "speed": 6,
+  "sight": 12,
+  "attack": 12,
+  "attackSpeed": 2.55,
+  "distance": 3,
+  "upgradeSkill": [
+    {
+      "name": "炎符「火烧樱井寺」",
+      "introduction": "布都1升级",
+      "icon": "布都烧房子.png",
+      "view": "布都烧.png",
+      "cost": 2
+    },
+    {
+      "name": "皿投「土器回转投」",
+      "introduction": "布都2升级",
+      "icon": "布都盘子.png",
+      "view": "布都盘子.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

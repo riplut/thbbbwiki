@@ -1,0 +1,44 @@
+{
+  "cardID": "响子",
+  "id": 25,
+  "oderID": 56,
+  "shortName": "响子",
+  "fullName": "幽谷响子",
+  "rank": "B",
+  "origin": "其他",
+  "price": 14,
+  "description": "响子的介绍",
+  "speech": "响子的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "扫地"
+  ],
+  "hp": 64,
+  "armor": 3,
+  "slowspeed": 3.2,
+  "speed": 5,
+  "sight": 12,
+  "attack": 15,
+  "attackSpeed": 1.25,
+  "distance": 1.8,
+  "upgradeSkill": [
+    {
+      "name": "山彦「强力复读机」",
+      "introduction": "响子1升级",
+      "icon": "响子击飞.png",
+      "view": "响子击退.png",
+      "cost": 2
+    },
+    {
+      "name": "叫唤「激烈呼喊」",
+      "introduction": "响子2升级",
+      "icon": "响子声波.png",
+      "view": "响子声波.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

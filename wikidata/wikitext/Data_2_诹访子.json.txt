@@ -1,0 +1,47 @@
+{
+  "cardID": "诹访子",
+  "id": 56,
+  "oderID": 53,
+  "shortName": "诹访子",
+  "fullName": "洩矢诹访子",
+  "rank": "S",
+  "origin": "风神录",
+  "price": 40,
+  "description": "诹访子的介绍",
+  "speech": "诹访子的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "蛙跳",
+    "不死",
+    "高护甲",
+    "呱"
+  ],
+  "hp": 120,
+  "armor": 5,
+  "slowspeed": 0,
+  "speed": 0,
+  "sight": 18,
+  "attack": 0,
+  "attackSpeed": 0,
+  "distance": 4.5,
+  "upgradeSkill": [
+    {
+      "name": "源符「跳水」",
+      "introduction": "诹访子1升级",
+      "icon": "诹访子-间歇泉.png",
+      "view": "诹访子：间歇泉.png",
+      "cost": 5
+    },
+    {
+      "name": "蛙休「冬眠」",
+      "introduction": "诹访子2升级",
+      "icon": "诹访子-青蛙潜航.png",
+      "view": "诹访子：青蛙潜航.png",
+      "cost": 3
+    }
+  ],
+  "category": "兵种"
+}

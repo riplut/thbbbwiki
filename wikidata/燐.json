@@ -1,0 +1,47 @@
+{
+  "cardID": "燐",
+  "id": 41,
+  "oderID": 44,
+  "shortName": "燐",
+  "fullName": "火焰猫燐",
+  "rank": "A",
+  "origin": "地灵殿",
+  "price": 32,
+  "description": "燐的介绍",
+  "speech": "燐的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "召唤师",
+    "搬运",
+    "死灰复燃",
+    "撤退",
+    "容易送"
+  ],
+  "hp": 95,
+  "armor": 4,
+  "slowspeed": 3.2,
+  "speed": 6.5,
+  "sight": 16,
+  "attack": 0,
+  "attackSpeed": 1.2,
+  "distance": 3,
+  "upgradeSkill": [
+    {
+      "name": "尸灵「食人怨灵」",
+      "introduction": "燐1升级",
+      "icon": "猫车爆炸.png",
+      "view": "猫车：复活.png",
+      "cost": 5
+    },
+    {
+      "name": "妖怪「火焰的车轮」",
+      "introduction": "燐2升级",
+      "icon": "猫车车.png",
+      "view": "猫车：车.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

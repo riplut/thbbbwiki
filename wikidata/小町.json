@@ -1,0 +1,49 @@
+{
+  "cardID": "小町",
+  "id": 39,
+  "oderID": 36,
+  "shortName": "小町",
+  "fullName": "小野冢小町",
+  "rank": "A",
+  "origin": "花映冢",
+  "price": 32,
+  "description": "小町的介绍",
+  "speech": "小町的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "大镰刀",
+    "死神",
+    "AOE",
+    "突进",
+    "减速",
+    "低攻速"
+  ],
+  "hp": 135,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 7.5,
+  "sight": 18,
+  "attack": 16,
+  "attackSpeed": 0.65,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "魂符「魂之游戏」",
+      "introduction": "小町1升级",
+      "icon": "小町-换位.png",
+      "view": "小町：换位.png",
+      "cost": 4
+    },
+    {
+      "name": "灵符「灵魂收割」",
+      "introduction": "小町2升级",
+      "icon": "小町-魂.png",
+      "view": "小町：拉灵魂.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

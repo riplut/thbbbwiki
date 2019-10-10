@@ -1,0 +1,47 @@
+{
+  "cardID": "莉莉",
+  "id": 7,
+  "oderID": 40,
+  "shortName": "莉莉",
+  "fullName": "莉莉怀特",
+  "rank": "C",
+  "origin": "妖妖梦",
+  "price": 8,
+  "description": "莉莉的介绍",
+  "speech": "莉莉的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "辅助",
+    "妖精",
+    "春天啦",
+    "治疗",
+    "脆皮"
+  ],
+  "hp": 22,
+  "armor": 0,
+  "slowspeed": 3.2,
+  "speed": 3.5,
+  "sight": 18,
+  "attack": 6,
+  "attackSpeed": 1.2,
+  "distance": 5,
+  "upgradeSkill": [
+    {
+      "name": "惊蛰「万物复苏」",
+      "introduction": "莉莉1升级",
+      "icon": "莉莉-群体.png",
+      "view": "莉莉：群体.png",
+      "cost": 1
+    },
+    {
+      "name": "谷雨「意外收获」",
+      "introduction": "莉莉2升级",
+      "icon": "莉莉-P点.png",
+      "view": "莉莉：撒P.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

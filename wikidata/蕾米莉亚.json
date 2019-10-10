@@ -1,0 +1,49 @@
+{
+  "cardID": "蕾米莉亚",
+  "id": 49,
+  "oderID": 20,
+  "shortName": "蕾米",
+  "fullName": "蕾米莉亚斯卡雷特",
+  "rank": "S",
+  "origin": "红魔乡",
+  "price": 42,
+  "description": "蕾米的介绍",
+  "speech": "蕾米的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "弹幕",
+    "持续火力",
+    "不死",
+    "群控",
+    "高护甲",
+    "手短"
+  ],
+  "hp": 88,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 18,
+  "attack": "9*4",
+  "attackSpeed": 1.15,
+  "distance": 6.25,
+  "upgradeSkill": [
+    {
+      "name": "红蝙蝠「吸血鬼之夜」",
+      "introduction": "大小姐1升级",
+      "icon": "蕾米-蝙蝠.png",
+      "view": "蕾米莉亚：蝙蝠.png",
+      "cost": 6
+    },
+    {
+      "name": "神枪「冈格尼尔」",
+      "introduction": "大小姐2升级",
+      "icon": "蕾米-神枪.png",
+      "view": "蕾米莉亚：神枪.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

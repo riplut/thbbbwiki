@@ -1,0 +1,49 @@
+{
+  "cardID": "咲夜",
+  "id": 32,
+  "oderID": 13,
+  "shortName": "咲夜",
+  "fullName": "十六夜咲夜",
+  "rank": "A",
+  "origin": "红魔乡",
+  "price": 26,
+  "description": "咲夜的介绍",
+  "speech": "咲夜的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "三连发",
+    "PAD",
+    "控制",
+    "瞬间移动",
+    "持续火力",
+    "手短"
+  ],
+  "hp": 48,
+  "armor": 5,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 10,
+  "attackSpeed": 0.7,
+  "distance": 6.5,
+  "upgradeSkill": [
+    {
+      "name": "奇术「错误引导」",
+      "introduction": "女仆1升级",
+      "icon": "16-刀.png",
+      "view": "女仆：后退.png",
+      "cost": 4
+    },
+    {
+      "name": "时符「个人空间」",
+      "introduction": "女仆2升级",
+      "icon": "16-时停.png",
+      "view": "女仆：时间停止.png",
+      "cost": 7
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,50 @@
+{
+  "cardID": "山女",
+  "id": 18,
+  "oderID": 34,
+  "shortName": "山女",
+  "fullName": "黑谷山女",
+  "rank": "B",
+  "origin": "地灵殿",
+  "price": 16,
+  "description": "山女的介绍",
+  "speech": "山女的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "施法者",
+    "控制",
+    "破坏阵型",
+    "扰乱",
+    "瘟疫",
+    "减速",
+    "脆皮",
+    "画风刺激"
+  ],
+  "hp": 46,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 15,
+  "attackSpeed": 0.9,
+  "distance": 7,
+  "upgradeSkill": [
+    {
+      "name": "细网「捕虫网」",
+      "introduction": "山女1升级",
+      "icon": "山女-网.png",
+      "view": "山女：网.png",
+      "cost": 3
+    },
+    {
+      "name": "瘴符「瘟疫之源」",
+      "introduction": "山女2升级",
+      "icon": "山女-蜘蛛.png",
+      "view": "山女：蜘蛛.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

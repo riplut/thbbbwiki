@@ -1,0 +1,44 @@
+{
+  "cardID": "萃香",
+  "id": 58,
+  "oderID": 58,
+  "shortName": "萃香",
+  "fullName": "伊吹萃香",
+  "rank": "S",
+  "origin": "其他",
+  "price": 40,
+  "description": "萃香的介绍",
+  "speech": "萃香的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "召唤师",
+    "花火"
+  ],
+  "hp": 70,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 5.5,
+  "sight": 18,
+  "attack": 10,
+  "attackSpeed": 0.88,
+  "distance": 9,
+  "upgradeSkill": [
+    {
+      "name": "投符「百鬼夜行」",
+      "introduction": "萃香1升级",
+      "icon": "萃香小西瓜.png",
+      "view": "西瓜扔小的.png",
+      "cost": 4
+    },
+    {
+      "name": "鬼神「失落之力」",
+      "introduction": "萃香2升级",
+      "icon": "萃香大西瓜.png",
+      "view": "西瓜合体.png",
+      "cost": 7
+    }
+  ],
+  "category": "兵种"
+}

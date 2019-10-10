@@ -1,0 +1,46 @@
+{
+  "cardID": "赤蛮奇",
+  "id": 28,
+  "oderID": 66,
+  "shortName": "赤蛮奇",
+  "fullName": "赤蛮奇",
+  "rank": "B",
+  "origin": "花映冢",
+  "price": 20,
+  "description": "赤蛮奇的介绍",
+  "speech": "赤蛮奇的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "闭目射击",
+    "高伤害",
+    "手短"
+  ],
+  "hp": 56,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4,
+  "sight": 18,
+  "attack": "12*2",
+  "attackSpeed": 1.25,
+  "distance": 4,
+  "upgradeSkill": [
+    {
+      "name": "飞头「分头行动」",
+      "introduction": "赤蛮奇1升级",
+      "icon": "赤蛮奇飞头.png",
+      "view": "赤蛮奇：飞头.png",
+      "cost": 3
+    },
+    {
+      "name": "无头「断头保命」",
+      "introduction": "赤蛮奇2升级",
+      "icon": "赤蛮奇掉头.png",
+      "view": "赤蛮奇：无头.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,47 @@
+{
+  "cardID": "心",
+  "id": 47,
+  "oderID": 65,
+  "shortName": "心",
+  "fullName": "秦心",
+  "rank": "A",
+  "origin": "花映冢",
+  "price": 28,
+  "description": "心的介绍",
+  "speech": "心的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "近战",
+    "战士",
+    "面具",
+    "般若面",
+    "若女面",
+    "瞎切换"
+  ],
+  "hp": 82,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 8.5,
+  "sight": 12,
+  "attack": 15,
+  "attackSpeed": 1.4,
+  "distance": 1.25,
+  "upgradeSkill": [
+    {
+      "name": "喜面「狂喜火男面」",
+      "introduction": "心1升级",
+      "icon": "秦心放花.png",
+      "view": "秦心：放花.png",
+      "cost": 5
+    },
+    {
+      "name": "怒面「吼怒妖狐面」",
+      "introduction": "心2升级",
+      "icon": "秦心冲刺.png",
+      "view": "秦心：冲刺.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,46 @@
+{
+  "cardID": "魔理沙",
+  "id": 29,
+  "oderID": 7,
+  "shortName": "魔理沙",
+  "fullName": "雾雨魔理沙",
+  "rank": "A",
+  "origin": "其他",
+  "price": 31,
+  "description": "魔理沙的介绍",
+  "speech": "魔理沙的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "施法者",
+    "星尘扫射",
+    "AOE",
+    "脆皮"
+  ],
+  "hp": 52,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 10,
+  "attackSpeed": 1.28,
+  "distance": 7,
+  "upgradeSkill": [
+    {
+      "name": "星符「流星喷泉」",
+      "introduction": "魔理沙1升级",
+      "icon": "魔理沙-星星.png",
+      "view": "魔理沙：火力.png",
+      "cost": 5
+    },
+    {
+      "name": "恋符「彗星手电筒」",
+      "introduction": "魔理沙2升级",
+      "icon": "魔理沙-光束.png",
+      "view": "魔理沙：贯穿.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

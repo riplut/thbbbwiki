@@ -1,0 +1,49 @@
+{
+  "cardID": "永琳",
+  "id": 50,
+  "oderID": 23,
+  "shortName": "永琳",
+  "fullName": "八意永琳",
+  "rank": "S",
+  "origin": "永夜抄",
+  "price": 43,
+  "description": "永琳的介绍",
+  "speech": "永琳的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "辅助",
+    "药瓶",
+    "治疗",
+    "手长",
+    "不死药",
+    "脆皮",
+    "贵"
+  ],
+  "hp": 25,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 18,
+  "attack": 13,
+  "attackSpeed": 1.6,
+  "distance": 13,
+  "upgradeSkill": [
+    {
+      "name": "秘药「仙香玉兔」",
+      "introduction": "永琳1升级",
+      "icon": "永琳-治疗.png",
+      "view": "永琳：治疗.png",
+      "cost": 7
+    },
+    {
+      "name": "禁药「蓬莱之药」",
+      "introduction": "永琳2升级",
+      "icon": "永琳-复活.png",
+      "view": "永琳：复活.png",
+      "cost": 9
+    }
+  ],
+  "category": "兵种"
+}

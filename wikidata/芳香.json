@@ -1,0 +1,45 @@
+{
+  "cardID": "芳香",
+  "id": 23,
+  "oderID": 49,
+  "shortName": "芳香",
+  "fullName": "宫古芳香",
+  "rank": "B",
+  "origin": "神灵庙",
+  "price": 14,
+  "description": "芳香的介绍",
+  "speech": "芳香的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "毒爪",
+    "感染"
+  ],
+  "hp": 65,
+  "armor": 3,
+  "slowspeed": 3.2,
+  "speed": 4,
+  "sight": 18,
+  "attack": 7,
+  "attackSpeed": 2,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "感染「行尸走肉」",
+      "introduction": "芳香1升级",
+      "icon": "芳香1.png",
+      "view": "僵尸吃人.png",
+      "cost": 4
+    },
+    {
+      "name": "剧毒「芬芳香气」",
+      "introduction": "芳香2升级",
+      "icon": "芳香2.png",
+      "view": "僵尸死了.png",
+      "cost": 3
+    }
+  ],
+  "category": "兵种"
+}

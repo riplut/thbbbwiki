@@ -1,0 +1,49 @@
+{
+  "cardID": "爱丽丝",
+  "id": 17,
+  "oderID": 16,
+  "shortName": "爱丽丝",
+  "fullName": "爱丽丝玛格特罗伊德",
+  "rank": "B",
+  "origin": "妖妖梦",
+  "price": 21,
+  "description": "爱丽丝的介绍",
+  "speech": "爱丽丝的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "召唤师",
+    "人偶师",
+    "高伤害",
+    "爆发",
+    "撤退",
+    "本体废柴",
+    "脆皮"
+  ],
+  "hp": 35,
+  "armor": 0,
+  "slowspeed": 3.5,
+  "speed": 3.5,
+  "sight": 12,
+  "attack": 0,
+  "attackSpeed": 3,
+  "distance": 8.5,
+  "upgradeSkill": [
+    {
+      "name": "操符「排队枪毙」",
+      "introduction": "爱丽丝1升级",
+      "icon": "爱丽丝-远程.png",
+      "view": "爱丽丝：精度.png",
+      "cost": 2
+    },
+    {
+      "name": "步兵「敢死军团」",
+      "introduction": "爱丽丝2升级",
+      "icon": "爱丽丝-更多.png",
+      "view": "爱丽丝：数量.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

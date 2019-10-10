@@ -1,0 +1,48 @@
+{
+  "cardID": "秋姐妹",
+  "id": 4,
+  "oderID": 5,
+  "shortName": "秋姐妹",
+  "fullName": "秋穰子/秋静叶",
+  "rank": "C",
+  "origin": "风神录",
+  "price": 11,
+  "description": "秋姐妹的介绍",
+  "speech": "秋姐妹的台词",
+  "features": [
+    "对地",
+    "地面",
+    "远程",
+    "特殊",
+    "姐妹",
+    "丰收",
+    "牺牲",
+    "杂鱼",
+    "没人气"
+  ],
+  "hp": 9,
+  "armor": 0,
+  "slowspeed": 3.5,
+  "speed": 6.5,
+  "sight": 18,
+  "attack": 3,
+  "attackSpeed": 1,
+  "distance": 8,
+  "upgradeSkill": [
+    {
+      "name": "丰符「丰年收获」",
+      "introduction": "秋姐妹1升级",
+      "icon": "秋_丰收.png",
+      "view": "秋姐妹：点数.png",
+      "cost": 4
+    },
+    {
+      "name": "秋符「信仰之心」",
+      "introduction": "秋姐妹2升级",
+      "icon": "秋_枫叶.png",
+      "view": "秋姐妹：信仰.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

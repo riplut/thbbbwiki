@@ -1,0 +1,48 @@
+{
+  "cardID": "妖精青",
+  "id": 64,
+  "oderID": 30,
+  "shortName": "妖精青",
+  "fullName": "妖精（青）",
+  "rank": "C",
+  "origin": "其他",
+  "price": 4,
+  "description": "妖精的介绍",
+  "speech": "妖精的台词",
+  "features": [
+    "对地",
+    "地面",
+    "远程",
+    "特殊",
+    "妖精",
+    "快速",
+    "便宜",
+    "没用",
+    "污染卡池"
+  ],
+  "hp": 14,
+  "armor": 0,
+  "slowspeed": 5,
+  "speed": 7.5,
+  "sight": 12,
+  "attack": 5,
+  "attackSpeed": 0.9,
+  "distance": 5,
+  "upgradeSkill": [
+    {
+      "name": "妖精「进攻」",
+      "introduction": "妖精青1升级",
+      "icon": "妖精_进攻.png",
+      "view": "妖精_进攻.png",
+      "cost": 1
+    },
+    {
+      "name": "妖精「防御」",
+      "introduction": "妖精青2升级",
+      "icon": "妖精_防御.png",
+      "view": "妖精_防御.png",
+      "cost": 1
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,48 @@
+{
+  "cardID": "小伞",
+  "id": 22,
+  "oderID": 42,
+  "shortName": "小伞",
+  "fullName": "多多良小伞",
+  "rank": "B",
+  "origin": "星莲船",
+  "price": 17,
+  "description": "小伞的介绍",
+  "speech": "小伞的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "吓人",
+    "群控",
+    "破坏阵型",
+    "控制",
+    "脆皮"
+  ],
+  "hp": 60,
+  "armor": 3,
+  "slowspeed": 3.5,
+  "speed": 7.5,
+  "sight": 18,
+  "attack": 13,
+  "attackSpeed": 1.6,
+  "distance": 1.75,
+  "upgradeSkill": [
+    {
+      "name": "光晕「唐伞惊吓」",
+      "introduction": "小伞1升级",
+      "icon": "小伞惊吓.png",
+      "view": "小伞：群体.png",
+      "cost": 3
+    },
+    {
+      "name": "雨符「雨夜怪谈」",
+      "introduction": "小伞2升级",
+      "icon": "小伞舔.png",
+      "view": "小伞：单体.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,45 @@
+{
+  "cardID": "灵梦",
+  "id": 46,
+  "oderID": 62,
+  "shortName": "灵梦",
+  "fullName": "博丽灵梦",
+  "rank": "A",
+  "origin": "红魔乡",
+  "price": 25,
+  "description": "灵梦的介绍",
+  "speech": "灵梦的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "驱魔棒",
+    "扰乱"
+  ],
+  "hp": 80,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 8.5,
+  "sight": 12,
+  "attack": 15,
+  "attackSpeed": 2.2,
+  "distance": 1.8,
+  "upgradeSkill": [
+    {
+      "name": "梦符「封魔阵」",
+      "introduction": "灵梦1升级",
+      "icon": "灵梦封印.png",
+      "view": "灵梦封印.png",
+      "cost": 4
+    },
+    {
+      "name": "梦境「二重结界」",
+      "introduction": "灵梦2升级",
+      "icon": "灵梦结界.png",
+      "view": "灵梦结界.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

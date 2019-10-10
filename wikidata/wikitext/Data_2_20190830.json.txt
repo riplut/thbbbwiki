@@ -1,0 +1,259 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "紫(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "火车消耗80→75"
+      ],
+      "change": [
+        "基础射程提升到平均水准16→20"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "自机改动",
+      "toPage": "天子(自机)",
+      "changeSkill1": [
+        "飞行速度部分回调24→30"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 3,
+      "changeType": "自机改动",
+      "toPage": "魔理沙(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "普攻CD由3.5秒→4.5秒"
+      ]
+    },
+    {
+      "id": 4,
+      "changeType": "自机改动",
+      "toPage": "灵梦(自机)",
+      "changeSkill1": [
+        "伤害统一到3",
+        "弹射次数调整为3/4/5/6"
+      ],
+      "changeSkill2": [
+        "现在对自机伤害双倍"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 5,
+      "changeType": "自机改动",
+      "toPage": "早苗(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "现在对自机伤害双倍"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "小恶魔",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "几率15%→12%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "衣玖",
+      "changeSkill1": [
+        "减伤比例45→40"
+      ],
+      "changeSkill2": [
+        "几率13.5%→14.5%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "琪露诺",
+      "changeSkill1": [
+        "几率20%→35%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量28→26"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "梅蒂欣",
+      "changeSkill1": [
+        "持续时间5.5→5"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量50→46"
+      ]
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "慧音",
+      "changeSkill1": [
+        "冷却时间16→21"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 11,
+      "changeType": "兵种改动",
+      "toPage": "荷取",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "造价18→16",
+        "血量36→34",
+        "攻速0.48/s→0.45/s"
+      ]
+    },
+    {
+      "id": 12,
+      "changeType": "兵种改动",
+      "toPage": "灵梦",
+      "changeSkill1": [
+        "封印住的敌人会损失15血量",
+        "不再只能对前排使用"
+      ],
+      "changeSkill2": [
+        "护盾40→60"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 13,
+      "changeType": "兵种改动",
+      "toPage": "魔理沙",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "冷却时间10→9.25"
+      ]
+    },
+    {
+      "id": 14,
+      "changeType": "兵种改动",
+      "toPage": "妖梦",
+      "changeSkill1": [
+        "伤害18→14"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 15,
+      "changeType": "兵种改动",
+      "toPage": "水蜜",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "造价30→32"
+      ]
+    },
+    {
+      "id": 16,
+      "changeType": "兵种改动",
+      "toPage": "天子",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "弹幕几率27%→25%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 17,
+      "changeType": "兵种改动",
+      "toPage": "咲夜",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.65/s→0.72/s"
+      ]
+    },
+    {
+      "id": 18,
+      "changeType": "兵种改动",
+      "toPage": "紫",
+      "changeSkill1": [
+        "信仰7→8"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "传走距离现在受韧性的影响"
+      ]
+    },
+    {
+      "id": 19,
+      "changeType": "兵种改动",
+      "toPage": "椛",
+      "changeSkill1": [
+        "信仰4→5"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 20,
+      "changeType": "兵种改动",
+      "toPage": "勇仪",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "护甲5→6",
+        "造价40→42",
+        "血量145→140"
+      ]
+    },
+    {
+      "id": 21,
+      "changeType": "防御塔改动",
+      "toPage": "防御塔",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "所有的小建筑血量45→35",
+        "3塔现在会带25%溅射效果",
+        "4塔现在会带40%溅射效果"
+      ]
+    }
+  ],
+  "version": "20190830",
+  "category": "更新日志"
+}

@@ -1,0 +1,49 @@
+{
+  "cardID": "露娜",
+  "id": 9,
+  "oderID": 47,
+  "shortName": "露娜",
+  "fullName": "露娜·切露德",
+  "rank": "C",
+  "origin": "其他",
+  "price": 6,
+  "description": "露娜的介绍",
+  "speech": "露娜的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "辅助",
+    "妖精",
+    "月光",
+    "穿透",
+    "便宜",
+    "快速",
+    "脆皮"
+  ],
+  "hp": 23,
+  "armor": 1,
+  "slowspeed": 4.5,
+  "speed": 6.5,
+  "sight": 14,
+  "attack": 4,
+  "attackSpeed": 0.44,
+  "distance": 7.5,
+  "upgradeSkill": [
+    {
+      "name": "光符「静悄悄」",
+      "introduction": "露娜1升级",
+      "icon": "露娜1.png",
+      "view": "露娜：月光.png",
+      "cost": 1
+    },
+    {
+      "name": "三月精「月之光」",
+      "introduction": "露娜2升级",
+      "icon": "露娜2.png",
+      "view": "三月精：在一起.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

@@ -1,0 +1,44 @@
+{
+  "cardID": "神奈子",
+  "id": 57,
+  "oderID": 55,
+  "shortName": "神奈子",
+  "fullName": "八坂神奈子",
+  "rank": "S",
+  "origin": "风神录",
+  "price": 48,
+  "description": "神奈子的介绍",
+  "speech": "神奈子的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "麻将山"
+  ],
+  "hp": 65,
+  "armor": 3,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": "10*4",
+  "attackSpeed": 0.95,
+  "distance": 6.5,
+  "upgradeSkill": [
+    {
+      "name": "天流「天水奇迹」",
+      "introduction": "神奈子1升级",
+      "icon": "神奈子-天水.png",
+      "view": "神奈子天水.png",
+      "cost": 4
+    },
+    {
+      "name": "神祭「御柱墓场」",
+      "introduction": "神奈子2升级",
+      "icon": "神奈子-御柱.png",
+      "view": "神奈子御柱.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

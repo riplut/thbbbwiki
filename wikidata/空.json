@@ -1,0 +1,48 @@
+{
+  "cardID": "空",
+  "id": 48,
+  "oderID": 18,
+  "shortName": "空",
+  "fullName": "灵乌路空",
+  "rank": "S",
+  "origin": "地灵殿",
+  "price": 38,
+  "description": "空的介绍",
+  "speech": "空的台词",
+  "features": [
+    "对地",
+    "飞行",
+    "远程",
+    "施法者",
+    "核弹",
+    "AOE",
+    "对地强力",
+    "爆发",
+    "笨蛋"
+  ],
+  "hp": 60,
+  "armor": 2,
+  "slowspeed": 3.2,
+  "speed": 3.5,
+  "sight": 18,
+  "attack": 13,
+  "attackSpeed": 1.35,
+  "distance": 6.5,
+  "upgradeSkill": [
+    {
+      "name": "爆符「核反应失控」",
+      "introduction": "空1升级",
+      "icon": "空-轰炸.png",
+      "view": "路空：轰炸.png",
+      "cost": 2
+    },
+    {
+      "name": "星符「巨星坠落」",
+      "introduction": "空2升级",
+      "icon": "空-核弹.png",
+      "view": "路空：核弹.png",
+      "cost": 8
+    }
+  ],
+  "category": "兵种"
+}

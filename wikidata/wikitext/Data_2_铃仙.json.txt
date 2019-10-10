@@ -1,0 +1,49 @@
+{
+  "cardID": "铃仙",
+  "id": 35,
+  "oderID": 17,
+  "shortName": "铃仙",
+  "fullName": "铃仙优昙华院因幡",
+  "rank": "A",
+  "origin": "永夜抄",
+  "price": 30,
+  "description": "铃仙的介绍",
+  "speech": "铃仙的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "三连发",
+    "手长",
+    "分身",
+    "持续火力",
+    "贵",
+    "脆皮"
+  ],
+  "hp": 55,
+  "armor": 3,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 18,
+  "attack": 9,
+  "attackSpeed": 0.76,
+  "distance": 12,
+  "upgradeSkill": [
+    {
+      "name": "幻兔「平行交叉」",
+      "introduction": "铃仙1升级",
+      "icon": "铃仙-分身.png",
+      "view": "铃仙：分身.png",
+      "cost": 5
+    },
+    {
+      "name": "幻惑「花冠视线」",
+      "introduction": "铃仙2升级",
+      "icon": "铃仙-激光.png",
+      "view": "铃仙：激光.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

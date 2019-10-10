@@ -1,0 +1,258 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "灵梦(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "伤害4/8→4/6",
+        "CD40/30→60/45",
+        "消耗55→60"
+      ],
+      "change": []
+    },
+    {
+      "id": 2,
+      "changeType": "自机改动",
+      "toPage": "紫(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "消耗75→85",
+        "CD40/40→75/50"
+      ],
+      "change": []
+    },
+    {
+      "id": 3,
+      "changeType": "自机改动",
+      "toPage": "魔理沙(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "普攻CD降低4.5→4.2"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "恋",
+      "changeSkill1": "[\"重做\n从第一次攻击后不打破无意识（隐身）状态\n改为每次攻击后都有38%几率不打破无意识（隐身）状态\"]",
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "荷取",
+      "changeSkill1": [
+        "持续时间2→3",
+        "CD1→3.35"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "映姬",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "HP62→68",
+        "有罪斩杀线55→67%",
+        "攻击速度0.85→0.9"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "芙兰朵露",
+      "changeSkill1": [
+        "分身攻击力24→22"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻击距离1→1.25"
+      ]
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "蕾蒂",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量55→57"
+      ]
+    },
+    {
+      "id": 11,
+      "changeType": "兵种改动",
+      "toPage": "蕾米莉亚",
+      "changeSkill1": [
+        "吸血17→20"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量80→88"
+      ]
+    },
+    {
+      "id": 12,
+      "changeType": "兵种改动",
+      "toPage": "勇仪",
+      "changeSkill1": [
+        "减伤降低55%→50%"
+      ],
+      "changeSkill2": [
+        "地震伤害18→25"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "普攻伤害19→24",
+        "攻击会向前冲刺0.5距离",
+        "攻击速度1.7/s→1.3/s"
+      ]
+    },
+    {
+      "id": 13,
+      "changeType": "兵种改动",
+      "toPage": "帕秋莉",
+      "changeSkill1": [
+        "火球伤害24→22"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 14,
+      "changeType": "兵种改动",
+      "toPage": "水蜜",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻击力18→26",
+        "攻击速度0.75→0.40"
+      ]
+    },
+    {
+      "id": 15,
+      "changeType": "兵种改动",
+      "toPage": "梅蒂欣",
+      "changeSkill1": [
+        "费用2→3"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量46→44"
+      ]
+    },
+    {
+      "id": 16,
+      "changeType": "兵种改动",
+      "toPage": "桑尼",
+      "changeSkill1": [
+        "闪瞎减少命中50%→60%"
+      ],
+      "changeSkill2": [
+        "费用1→3"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量28→30"
+      ]
+    },
+    {
+      "id": 17,
+      "changeType": "兵种改动",
+      "toPage": "斯塔",
+      "changeSkill1": [
+        "易伤25→30%",
+        "费用1→2"
+      ],
+      "changeSkill2": [
+        "费用1→3"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "攻速1.4/s→1.45/s"
+      ]
+    },
+    {
+      "id": 18,
+      "changeType": "兵种改动",
+      "toPage": "露娜",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "费用1→3"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量22→23",
+        "攻速0.4/s→0.44/s"
+      ]
+    },
+    {
+      "id": 19,
+      "changeType": "兵种改动",
+      "toPage": "雏",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻击力4→6",
+        "攻速1.15→0.8"
+      ]
+    },
+    {
+      "id": 20,
+      "changeType": "兵种改动",
+      "toPage": "衣玖",
+      "changeSkill1": [
+        "持续时间4.25→3.75"
+      ],
+      "changeSkill2": [
+        "闪电链伤害16→18"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 20,
+      "changeType": "兵种改动",
+      "toPage": "小恶魔",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "大玉概率12%→11%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 20,
+      "changeType": "兵种改动",
+      "toPage": "若鹭姬",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "费用3→4"
+      ],
+      "changeSkill3": [],
+      "change": []
+    }
+  ],
+  "version": "20190906",
+  "category": "更新日志"
+}

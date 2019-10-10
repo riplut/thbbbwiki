@@ -4,6 +4,8 @@ local ch=require('Module:Translate').ch
 local en=require('Module:Translate').en
 local jp=require('Module:Translate').jp
 local ko=require('Module:Translate').ko
+local split = require('Module:Util').split
+--
 --查找对应feature的文本,feature_key为对应键名:'name'or'introduction'
 --function get_feature(dictionary,id,feature_key)
 --    for key,info in pairs(dictionary) do
@@ -80,7 +82,15 @@ function p.card_page_show(f)
             ..'</div>'
             ..'</div>'
             ..'</div>'
-            ..'<div class="cardinfo-speech">'..tr(db["description"])..'</div>'
+            ..'<div class="cardinfo-speech">'
+    --处理描述的字符串
+    local _description=string.gsub(tr(db["description"]),"%s","")
+    for key,value in ipairs(split(_description,'●')) do
+        if key~=1 then
+            re=re..'<li>'..value..'</li>'
+        end
+    end
+            re=re..'</div>'
             ..'</div>'
             ..'<div class="row meta-container">'
             ..'<div class="col-md-4 col-sm-4 col-xs-6 meta-item">'

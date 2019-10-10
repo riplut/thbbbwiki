@@ -1,0 +1,49 @@
+{
+  "cardID": "美铃",
+  "id": 15,
+  "oderID": 11,
+  "shortName": "美铃",
+  "fullName": "红美铃",
+  "rank": "B",
+  "origin": "红魔乡",
+  "price": 18,
+  "description": "美铃的介绍",
+  "speech": "美铃的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "彩虹旋风",
+    "功夫",
+    "AOE",
+    "扰乱",
+    "高血量",
+    "偷懒"
+  ],
+  "hp": 88,
+  "armor": 3,
+  "slowspeed": 3.8,
+  "speed": 6,
+  "sight": 12,
+  "attack": 12,
+  "attackSpeed": 1.6,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "华符「破山炮」",
+      "introduction": "中国1升级",
+      "icon": "美铃-冲拳.png",
+      "view": "红美铃：冲拳.png",
+      "cost": 3
+    },
+    {
+      "name": "彩符「彩光风铃」",
+      "introduction": "中国2升级",
+      "icon": "美铃-击飞.png",
+      "view": "红美铃：击飞.png",
+      "cost": 3
+    }
+  ],
+  "category": "兵种"
+}

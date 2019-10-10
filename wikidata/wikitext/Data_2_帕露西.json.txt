@@ -1,0 +1,48 @@
+{
+  "cardID": "帕露西",
+  "id": 20,
+  "oderID": 38,
+  "shortName": "帕露西",
+  "fullName": "水桥帕露西",
+  "rank": "B",
+  "origin": "地灵殿",
+  "price": 20,
+  "description": "帕露西的介绍",
+  "speech": "帕露西的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "施法者",
+    "煽动",
+    "控制",
+    "扰乱",
+    "破坏阵型",
+    "手短"
+  ],
+  "hp": 42,
+  "armor": 2,
+  "slowspeed": 3,
+  "speed": 5,
+  "sight": 12,
+  "attack": 12,
+  "attackSpeed": 1.8,
+  "distance": 3.5,
+  "upgradeSkill": [
+    {
+      "name": "恨符「刻骨铭心」",
+      "introduction": "帕露西1升级",
+      "icon": "帕露西-持久.png",
+      "view": "帕露西：持久.png",
+      "cost": 2
+    },
+    {
+      "name": "妒符「暗中嫉妒」",
+      "introduction": "帕露西2升级",
+      "icon": "帕露西-远距离.png",
+      "view": "帕露西：远距离.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

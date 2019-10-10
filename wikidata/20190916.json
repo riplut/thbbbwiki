@@ -1,0 +1,144 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "小伞",
+      "changeSkill1": [
+        "持续时间延长72%→197%"
+      ],
+      "changeSkill2": [
+        "重做"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "恐惧时间3.2→1.85",
+        "恐惧伤害8→4"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "莉格露",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "移动速度3.5→3.8",
+        "攻击距离9→7.5"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "桑尼",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "光环攻击力增强6%→25%"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量30→32"
+      ]
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "斯塔",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "光环攻速加强20%→45%"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量21→24"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "露娜",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "光环减伤20%→45%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "灵梦",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "灵梦攻速2→2.2"
+      ]
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "慧音",
+      "changeSkill1": [
+        "恢复血量0→1"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "蓝攻速0.68→0.75",
+        "橙攻速1.5→1.45"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "布都",
+      "changeSkill1": [
+        "烧建筑射程12→20",
+        "烧建筑CD60→12"
+      ],
+      "changeSkill2": [
+        "扔盘子攻速0.5→0.535"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量60→63"
+      ]
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "魔理沙",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "手雷CD9.25→8.75",
+        "手电筒CD10.5→9"
+      ]
+    },
+    {
+      "id": 11,
+      "changeType": "兵种改动",
+      "toPage": "琪露诺",
+      "changeSkill1": [
+        "冰冻冻结几率35%→50%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    }
+  ],
+  "version": "20190916",
+  "category": "更新日志"
+}

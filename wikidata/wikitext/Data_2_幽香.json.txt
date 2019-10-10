@@ -1,0 +1,49 @@
+{
+  "cardID": "幽香",
+  "id": 54,
+  "oderID": 39,
+  "shortName": "幽香",
+  "fullName": "风见幽香",
+  "rank": "S",
+  "origin": "花映冢",
+  "price": 42,
+  "description": "幽香的介绍",
+  "speech": "幽香的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "召唤师",
+    "种花",
+    "浇水",
+    "手长",
+    "撤退",
+    "高伤害",
+    "沉迷种花"
+  ],
+  "hp": 42,
+  "armor": 2,
+  "slowspeed": 2.4,
+  "speed": 4,
+  "sight": 18,
+  "attack": 0,
+  "attackSpeed": 3,
+  "distance": 10,
+  "upgradeSkill": [
+    {
+      "name": "花符「幻想乡的开花」",
+      "introduction": "幽香1升级",
+      "icon": "幽香-加血.png",
+      "view": "幽香：治疗.png",
+      "cost": 3
+    },
+    {
+      "name": "花符「花鸟风月」",
+      "introduction": "幽香2升级",
+      "icon": "幽香-攻击.png",
+      "view": "幽香：攻击.png",
+      "cost": 6
+    }
+  ],
+  "category": "兵种"
+}

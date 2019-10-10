@@ -1,0 +1,44 @@
+{
+  "cardID": "屠自古",
+  "id": 24,
+  "oderID": 52,
+  "shortName": "屠自古",
+  "fullName": "苏我屠自古",
+  "rank": "B",
+  "origin": "神灵庙",
+  "price": 20,
+  "description": "屠自古的介绍",
+  "speech": "屠自古的台词",
+  "features": [
+    "对空/地",
+    "飞行",
+    "远程",
+    "射手",
+    "叉状闪电"
+  ],
+  "hp": 41,
+  "armor": 2,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 12,
+  "attackSpeed": 0.51,
+  "distance": 6,
+  "upgradeSkill": [
+    {
+      "name": "惊雷「天打雷劈」",
+      "introduction": "屠自古1升级",
+      "icon": "屠自古-雷劈.png",
+      "view": "苏我屠自古落雷.png",
+      "cost": 4
+    },
+    {
+      "name": "怨灵「五雷轰顶」",
+      "introduction": "屠自古2升级",
+      "icon": "屠自古-五雷.png",
+      "view": "苏我屠自古五雷.png",
+      "cost": 3
+    }
+  ],
+  "category": "兵种"
+}

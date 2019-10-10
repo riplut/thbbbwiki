@@ -1,0 +1,48 @@
+{
+  "cardID": "琪斯美",
+  "id": 6,
+  "oderID": 33,
+  "shortName": "琪斯美",
+  "fullName": "琪斯美",
+  "rank": "C",
+  "origin": "地灵殿",
+  "price": 7,
+  "description": "琪斯美的介绍",
+  "speech": "琪斯美的台词",
+  "features": [
+    "对空/地",
+    "飞行",
+    "远程",
+    "射手",
+    "对地强力",
+    "自爆",
+    "萌",
+    "手短",
+    "容易送"
+  ],
+  "hp": 30,
+  "armor": 2,
+  "slowspeed": 2.7,
+  "speed": 3,
+  "sight": 18,
+  "attack": 8,
+  "attackSpeed": 0.9,
+  "distance": 6,
+  "upgradeSkill": [
+    {
+      "name": "怪奇「鬼火」",
+      "introduction": "琪斯美1升级",
+      "icon": "小桶-鬼火.png",
+      "view": "琪斯美_轰炸.png",
+      "cost": 1
+    },
+    {
+      "name": "吊桶「落下」",
+      "introduction": "琪斯美2升级",
+      "icon": "小桶-砸.png",
+      "view": "琪斯美_砸.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

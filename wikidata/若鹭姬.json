@@ -1,0 +1,45 @@
+{
+  "cardID": "若鹭姬",
+  "id": 12,
+  "oderID": 63,
+  "shortName": "若鹭姬",
+  "fullName": "若鹭姬",
+  "rank": "C",
+  "origin": "红魔乡",
+  "price": 8,
+  "description": "若鹭姬的介绍",
+  "speech": "若鹭姬的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "水泡泡",
+    "杂鱼"
+  ],
+  "hp": 27,
+  "armor": 0,
+  "slowspeed": 3.5,
+  "speed": 4.5,
+  "sight": 20,
+  "attack": 11,
+  "attackSpeed": 0.87,
+  "distance": 7.5,
+  "upgradeSkill": [
+    {
+      "name": "水符「泡泡糖」",
+      "introduction": "若鹭姬1升级",
+      "icon": "若鹭姬-泡泡.png",
+      "view": "若鹭姬：泡泡.png",
+      "cost": 2
+    },
+    {
+      "name": "瓶符「瓶装水补给」",
+      "introduction": "若鹭姬2升级",
+      "icon": "若鹭姬-水.png",
+      "view": "若鹭姬：水.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

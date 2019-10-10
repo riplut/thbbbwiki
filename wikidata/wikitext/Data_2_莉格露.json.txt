@@ -1,0 +1,48 @@
+{
+  "cardID": "莉格露",
+  "id": 2,
+  "oderID": 3,
+  "shortName": "莉格露",
+  "fullName": "莉格露奈特巴格",
+  "rank": "C",
+  "origin": "永夜抄",
+  "price": 8,
+  "description": "莉格露的介绍",
+  "speech": "莉格露的台词",
+  "features": [
+    "对空/地",
+    "飞行",
+    "远程",
+    "射手",
+    "隐身",
+    "扰乱",
+    "爆发",
+    "虫子",
+    "脆皮"
+  ],
+  "hp": 18,
+  "armor": 0,
+  "slowspeed": 3.8,
+  "speed": 4.8,
+  "sight": 20,
+  "attack": 7,
+  "attackSpeed": 1.82,
+  "distance": 7.5,
+  "upgradeSkill": [
+    {
+      "name": "虫符「嗡嗡嗡」",
+      "introduction": "虫子1升级",
+      "icon": "虫子-招小虫子.png",
+      "view": "莉格露：虫群.png",
+      "cost": 3
+    },
+    {
+      "name": "隐符「夏天的蚊子」",
+      "introduction": "虫子2升级",
+      "icon": "虫子-隐身.png",
+      "view": "莉格露：隐身.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

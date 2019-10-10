@@ -1,0 +1,46 @@
+{
+  "cardID": "雏",
+  "id": 27,
+  "oderID": 61,
+  "shortName": "雏",
+  "fullName": "键山雏",
+  "rank": "B",
+  "origin": "风神录",
+  "price": 20,
+  "description": "雏的介绍",
+  "speech": "雏的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "辅助",
+    "厄火",
+    "转",
+    "牺牲"
+  ],
+  "hp": 62,
+  "armor": 0,
+  "slowspeed": 3.25,
+  "speed": 6,
+  "sight": 12,
+  "attack": 6,
+  "attackSpeed": 0.8,
+  "distance": 6,
+  "upgradeSkill": [
+    {
+      "name": "创符「流刑人形」",
+      "introduction": "雏1升级",
+      "icon": "键山雏转移.png",
+      "view": "转转转移.png",
+      "cost": 5
+    },
+    {
+      "name": "疵痕「破碎护符」",
+      "introduction": "雏2升级",
+      "icon": "键山雏厄运.png",
+      "view": "转转厄运.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

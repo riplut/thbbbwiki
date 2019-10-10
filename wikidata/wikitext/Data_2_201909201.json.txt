@@ -1,0 +1,41 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "露米娅",
+      "changeSkill1": [
+        "致盲62%→75%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "秦心",
+      "changeSkill1": [
+        "每秒回血20→12",
+        "移速攻速30%→18%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量82→87",
+        "般若面加攻减伤30%→35%"
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "201909201",
+  "category": "更新日志"
+}

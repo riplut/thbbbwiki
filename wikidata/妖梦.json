@@ -1,0 +1,50 @@
+{
+  "cardID": "妖梦",
+  "id": 31,
+  "oderID": 10,
+  "shortName": "妖梦",
+  "fullName": "魂魄妖梦",
+  "rank": "A",
+  "origin": "妖妖梦",
+  "price": 25,
+  "description": "妖梦的介绍",
+  "speech": "妖梦的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "刺客",
+    "楼观剑",
+    "白楼剑",
+    "二刀流",
+    "高伤害",
+    "突进",
+    "脆皮",
+    "容易送"
+  ],
+  "hp": 65,
+  "armor": 4,
+  "slowspeed": 3.5,
+  "speed": 7.5,
+  "sight": 18,
+  "attack": 15,
+  "attackSpeed": 2.1,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "剑伎「樱花闪闪」",
+      "introduction": "妖梦1升级",
+      "icon": "妖梦-一闪.png",
+      "view": "妖梦：樱花闪.png",
+      "cost": 3
+    },
+    {
+      "name": "魂魄「幽明求闻…」",
+      "introduction": "妖梦2升级",
+      "icon": "妖梦-分身.png",
+      "view": "妖梦：幽冥什么聪明.png",
+      "cost": 5
+    }
+  ],
+  "category": "兵种"
+}

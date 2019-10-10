@@ -1,0 +1,49 @@
+{
+  "cardID": "文",
+  "id": 30,
+  "oderID": 8,
+  "shortName": "文",
+  "fullName": "射命丸文",
+  "rank": "A",
+  "origin": "风神录",
+  "price": 27,
+  "description": "文的介绍",
+  "speech": "文的台词",
+  "features": [
+    "对空/地",
+    "飞行",
+    "近战",
+    "刺客",
+    "龙卷风",
+    "快速",
+    "破坏阵型",
+    "突进",
+    "高伤害",
+    "容易送"
+  ],
+  "hp": 72,
+  "armor": 3,
+  "slowspeed": 4.1,
+  "speed": 12,
+  "sight": 12,
+  "attack": 15,
+  "attackSpeed": 2.3,
+  "distance": 1.25,
+  "upgradeSkill": [
+    {
+      "name": "记者「文文新闻」",
+      "introduction": "文1升级",
+      "icon": "文-相机闪.png",
+      "view": "文：新闻记者.png",
+      "cost": 3
+    },
+    {
+      "name": "风神「幻想风靡」",
+      "introduction": "文2升级",
+      "icon": "文-快闪.png",
+      "view": "文：幻想风靡.png",
+      "cost": 7
+    }
+  ],
+  "category": "兵种"
+}

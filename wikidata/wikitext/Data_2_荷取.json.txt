@@ -1,0 +1,45 @@
+{
+  "cardID": "荷取",
+  "id": 26,
+  "oderID": 60,
+  "shortName": "荷取",
+  "fullName": "河城荷取",
+  "rank": "B",
+  "origin": "风神录",
+  "price": 16,
+  "description": "荷取的介绍",
+  "speech": "荷取的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "远程",
+    "射手",
+    "水枪",
+    "破坏阵型"
+  ],
+  "hp": 34,
+  "armor": 1,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": "6*8",
+  "attackSpeed": 0.52,
+  "distance": 7.5,
+  "upgradeSkill": [
+    {
+      "name": "光学「水迷彩」",
+      "introduction": "荷取1升级",
+      "icon": "河童-光学迷彩.png",
+      "view": "荷取隐身.png",
+      "cost": 5
+    },
+    {
+      "name": "水符「瀑布倾泻」",
+      "introduction": "荷取2升级",
+      "icon": "河童-水炮.png",
+      "view": "荷取水枪.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

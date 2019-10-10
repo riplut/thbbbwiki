@@ -1,0 +1,49 @@
+{
+  "cardID": "恋",
+  "id": 40,
+  "oderID": 43,
+  "shortName": "恋",
+  "fullName": "古明地恋",
+  "rank": "A",
+  "origin": "地灵殿",
+  "price": 28,
+  "description": "恋的介绍",
+  "speech": "恋的台词",
+  "features": [
+    "对空/地",
+    "地面",
+    "近战",
+    "刺客",
+    "无意识",
+    "无法察觉",
+    "破坏阵型",
+    "高伤害",
+    "AOE",
+    "脆皮"
+  ],
+  "hp": 62,
+  "armor": 3,
+  "slowspeed": 4,
+  "speed": 4,
+  "sight": 18,
+  "attack": 28,
+  "attackSpeed": 0.5,
+  "distance": 1,
+  "upgradeSkill": [
+    {
+      "name": "抑制「超我管制」",
+      "introduction": "恋1升级",
+      "icon": "恋隐身.png",
+      "view": "恋：超我.png",
+      "cost": 5
+    },
+    {
+      "name": "本能「本我解放」",
+      "introduction": "恋2升级",
+      "icon": "恋暴走.png",
+      "view": "恋：本我.png",
+      "cost": 2
+    }
+  ],
+  "category": "兵种"
+}

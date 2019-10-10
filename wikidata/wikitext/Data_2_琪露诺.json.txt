@@ -1,0 +1,49 @@
+{
+  "cardID": "琪露诺",
+  "id": 13,
+  "oderID": 1,
+  "shortName": "琪露诺",
+  "fullName": "琪露诺",
+  "rank": "B",
+  "origin": "红魔乡",
+  "price": 15,
+  "description": "琪露诺的介绍",
+  "speech": "琪露诺的台词",
+  "features": [
+    "对空/地",
+    "飞行",
+    "远程",
+    "射手",
+    "妖精",
+    "冰箭",
+    "减速",
+    "持续火力",
+    "最强",
+    "笨蛋"
+  ],
+  "hp": 26,
+  "armor": 1,
+  "slowspeed": 3.5,
+  "speed": 4.8,
+  "sight": 12,
+  "attack": 9,
+  "attackSpeed": 1.3,
+  "distance": 6.5,
+  "upgradeSkill": [
+    {
+      "name": "速冻「冻青蛙」",
+      "introduction": "琪露诺1升级",
+      "icon": "9-冻结.png",
+      "view": "琪露诺：速冻.png",
+      "cost": 1
+    },
+    {
+      "name": "冰符「冰锥」",
+      "introduction": "琪露诺2升级",
+      "icon": "9-远射.png",
+      "view": "琪露诺：增强射程.png",
+      "cost": 4
+    }
+  ],
+  "category": "兵种"
+}

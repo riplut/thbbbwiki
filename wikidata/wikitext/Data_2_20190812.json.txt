@@ -1,0 +1,129 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "天子(自机)",
+      "change": [],
+      "changeSkill1": [
+        "弹道速度38→24"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 2,
+      "changeType": "自机改动",
+      "toPage": "紫(自机)",
+      "change": [],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "P点消耗8→3"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "恋",
+      "change": [],
+      "changeSkill1": [
+        "可以在第一次攻击时不打破隐身但是攻击力降低到80%。"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "change": [
+        "费用32→33"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "萃香",
+      "change": [
+        "普攻攻速1.1/s→0.88/s"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "幽香",
+      "change": [
+        "费用45→42"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "芳香",
+      "change": [
+        "费用15→14",
+        "生命值60→65"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "荷取",
+      "change": [
+        "攻速0.42/s→0.48/s"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "帕露西",
+      "change": [
+        "生命值38→42"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "灵梦",
+      "change": [
+        "生命值72→80"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    },
+    {
+      "id": 11,
+      "changeType": "兵种改动",
+      "toPage": "雏",
+      "change": [
+        "生命值45→62",
+        "护甲2→0"
+      ],
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": []
+    }
+  ],
+  "version": "20190812",
+  "category": "更新日志"
+}
