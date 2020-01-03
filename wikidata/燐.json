@@ -1,6 +1,6 @@
 {
   "cardID": "燐",
-  "id": 41,
+  "id": 42,
   "oderID": 44,
   "shortName": "燐",
   "fullName": "火焰猫燐",
@@ -13,11 +13,20 @@
     "对空/地",
     "地面",
     "远程",
-    "召唤师",
-    "搬运",
-    "死灰复燃",
+    "施法者",
     "撤退",
     "容易送"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "搬运",
+      "passiveIcon": "猫车搬运.png"
+    },
+    {
+      "name": "死灰复燃",
+      "passiveIcon": "死灰复燃.png"
+    }
   ],
   "hp": 95,
   "armor": 4,
@@ -43,5 +52,12 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": true,
+  "skinName": "红袖金缕 燐",
+  "skinBbbStarAmount": 480,
+  "isLive2D": false,
   "category": "兵种"
 }

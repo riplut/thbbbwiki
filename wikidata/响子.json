@@ -1,20 +1,26 @@
 {
   "cardID": "响子",
-  "id": 25,
+  "id": 26,
   "oderID": 56,
   "shortName": "响子",
   "fullName": "幽谷响子",
   "rank": "B",
   "origin": "其他",
-  "price": 14,
+  "price": 15,
   "description": "响子的介绍",
   "speech": "响子的台词",
   "features": [
     "对地",
     "地面",
     "近战",
-    "战士",
-    "扫地"
+    "战士"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "扫地",
+      "passiveIcon": "响子扫地.png"
+    }
   ],
   "hp": 64,
   "armor": 3,
@@ -40,5 +46,12 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

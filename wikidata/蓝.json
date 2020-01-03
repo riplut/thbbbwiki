@@ -1,34 +1,36 @@
 {
   "cardID": "蓝",
-  "id": 34,
+  "id": 35,
   "oderID": 15,
   "shortName": "蓝",
   "fullName": "八云蓝",
   "rank": "A",
   "origin": "妖妖梦",
-  "price": 33,
+  "price": 35,
   "description": "蓝的介绍",
   "speech": "蓝的台词",
   "features": [
     "对地",
     "地面",
     "远程",
-    "召唤师",
-    "橙",
-    "弹幕",
-    "手长",
-    "突进",
-    "破坏阵型",
+    "施法者",
     "本体废柴",
     "脆皮"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "橙",
+      "passiveIcon": "蓝橙.png"
+    }
   ],
   "hp": 38,
   "armor": 2,
   "slowspeed": 3.5,
   "speed": 4.8,
   "sight": 12,
-  "attack": 9,
-  "attackSpeed": 0.75,
+  "attack": 16,
+  "attackSpeed": 1.35,
   "distance": 9.5,
   "upgradeSkill": [
     {
@@ -46,5 +48,12 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

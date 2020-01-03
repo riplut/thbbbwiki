@@ -1,6 +1,6 @@
 {
   "cardID": "妖精绿",
-  "id": 63,
+  "id": 65,
   "oderID": 29,
   "shortName": "妖精绿",
   "fullName": "妖精（绿）",
@@ -14,11 +14,17 @@
     "地面",
     "远程",
     "特殊",
-    "妖精",
     "快速",
     "便宜",
     "没用",
     "污染卡池"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    }
   ],
   "hp": 14,
   "armor": 0,
@@ -44,5 +50,10 @@
       "cost": 1
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

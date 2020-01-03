@@ -14,12 +14,21 @@
     "地面",
     "远程",
     "战士",
-    "妖精",
-    "日光",
     "扰乱",
     "便宜",
     "快速",
     "脆皮"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    },
+    {
+      "name": "日光",
+      "passiveIcon": "日光.png"
+    }
   ],
   "hp": 32,
   "armor": 1,
@@ -45,5 +54,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

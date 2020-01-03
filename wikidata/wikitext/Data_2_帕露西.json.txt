@@ -1,6 +1,6 @@
 {
   "cardID": "帕露西",
-  "id": 20,
+  "id": 21,
   "oderID": 38,
   "shortName": "帕露西",
   "fullName": "水桥帕露西",
@@ -13,36 +13,47 @@
     "对空/地",
     "地面",
     "远程",
-    "施法者",
-    "煽动",
-    "控制",
-    "扰乱",
-    "破坏阵型",
+    "射手",
+    "高伤害",
     "手短"
   ],
-  "hp": 42,
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "绿眼怪兽",
+      "passiveIcon": "煽动.png"
+    }
+  ],
+  "hp": 55,
   "armor": 2,
-  "slowspeed": 3,
+  "slowspeed": 3.3,
   "speed": 5,
   "sight": 12,
-  "attack": 12,
-  "attackSpeed": 1.8,
-  "distance": 3.5,
+  "attack": 8,
+  "attackSpeed": 1.27,
+  "distance": 4.75,
   "upgradeSkill": [
     {
-      "name": "恨符「刻骨铭心」",
+      "name": "咒怨「积怨返」",
       "introduction": "帕露西1升级",
       "icon": "帕露西-持久.png",
       "view": "帕露西：持久.png",
-      "cost": 2
+      "cost": 3
     },
     {
-      "name": "妒符「暗中嫉妒」",
+      "name": "妒符「妒火中烧」",
       "introduction": "帕露西2升级",
       "icon": "帕露西-远距离.png",
       "view": "帕露西：远距离.png",
       "cost": 5
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

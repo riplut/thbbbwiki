@@ -1,4 +1,7 @@
 # Dependency directories
 node_modules/
 #Runtime data
-wikidata/
+database/production/Lobby
+database/production/*.xlsx
+database/copy.bat
+AutoWikiBrowser51010/

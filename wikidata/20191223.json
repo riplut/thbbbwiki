@@ -1,0 +1,106 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "天子(自机)",
+      "changeSkill1": [
+        "钻头费用12→15"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "觉",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻击力16→12"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "小町",
+      "changeSkill1": [
+        "换位后的减伤持续时间2→0.8"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "诹访子",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "缩进帽子的时间降低2s→1s",
+        "后退的移动速度降低4.5→1.5"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量降低120→115"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "灵梦",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "护盾60→72"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "妖梦",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "普攻距离1→1.45"
+      ]
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "文",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "重做了射命丸文的特效"
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191223",
+  "category": "更新日志"
+}

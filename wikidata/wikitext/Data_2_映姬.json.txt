@@ -1,6 +1,6 @@
 {
   "cardID": "映姬",
-  "id": 59,
+  "id": 60,
   "oderID": 64,
   "shortName": "映姬",
   "fullName": "四季映姬·亚玛萨那度",
@@ -13,9 +13,18 @@
     "对空/地",
     "地面",
     "远程",
-    "射手",
-    "穿透",
-    "阎王"
+    "射手"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "穿透",
+      "passiveIcon": "穿透.png"
+    },
+    {
+      "name": "阎王",
+      "passiveIcon": "四季阎王.png"
+    }
   ],
   "hp": 68,
   "armor": 2,
@@ -23,7 +32,7 @@
   "speed": 6.5,
   "sight": 14,
   "attack": 12,
-  "attackSpeed": 0.9,
+  "attackSpeed": 0.835,
   "distance": 7.5,
   "upgradeSkill": [
     {
@@ -31,15 +40,20 @@
       "introduction": "映姬1升级",
       "icon": "四季映姬-说教.png",
       "view": "四季：说教.png",
-      "cost": 3
+      "cost": 4
     },
     {
       "name": "审判「净颇梨审判」",
       "introduction": "映姬2升级",
       "icon": "四季映姬-镜子.png",
       "view": "四季：镜.png",
-      "cost": 5
+      "cost": 7
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

@@ -1,32 +1,44 @@
 {
   "cardID": "芙兰朵露",
-  "id": 51,
+  "id": 52,
   "oderID": 24,
   "shortName": "芙兰",
   "fullName": "芙兰朵露斯卡雷特",
   "rank": "S",
   "origin": "红魔乡",
-  "price": 40,
+  "price": 38,
   "description": "芙兰的介绍",
   "speech": "芙兰的台词",
   "features": [
     "对地",
     "地面",
     "近战",
-    "战士",
-    "吸血鬼",
-    "分身",
+    "刺客",
     "高伤害",
-    "脆皮",
     "贵"
   ],
-  "hp": 75,
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "吸血鬼",
+      "passiveIcon": "吸血鬼.png"
+    },
+    {
+      "name": "毁灭之王",
+      "passiveIcon": "芙兰毁灭之王.png"
+    },
+    {
+      "name": "灵敏",
+      "passiveIcon": "灵敏.png"
+    }
+  ],
+  "hp": 80,
   "armor": 5,
   "slowspeed": 3.5,
   "speed": 11,
   "sight": 18,
-  "attack": 28,
-  "attackSpeed": 1.92,
+  "attack": 18,
+  "attackSpeed": 2,
   "distance": 1.25,
   "upgradeSkill": [
     {
@@ -44,5 +56,12 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

@@ -1,6 +1,6 @@
 {
   "cardID": "妹红",
-  "id": 53,
+  "id": 54,
   "oderID": 37,
   "shortName": "妹红",
   "fullName": "藤原妹红",
@@ -14,20 +14,29 @@
     "地面",
     "近战",
     "刺客",
-    "不死鸟",
     "不死",
     "自爆",
-    "破坏阵型",
     "高伤害",
     "脆皮",
     "容易送"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "不死鸟",
+      "passiveIcon": "妹红不死鸟.png"
+    },
+    {
+      "name": "火鸡腿",
+      "passiveIcon": "妹红火鸡腿.png"
+    }
   ],
   "hp": 58,
   "armor": 4,
   "slowspeed": 4.2,
   "speed": 10,
   "sight": 18,
-  "attack": 30,
+  "attack": 28,
   "attackSpeed": 1.85,
   "distance": 1,
   "upgradeSkill": [
@@ -46,5 +55,12 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "不良少女 妹红",
+  "skinBbbStarAmount": 320,
+  "isLive2D": false,
   "category": "兵种"
 }

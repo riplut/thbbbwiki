@@ -1,6 +1,6 @@
 {
   "cardID": "赤蛮奇",
-  "id": 28,
+  "id": 29,
   "oderID": 66,
   "shortName": "赤蛮奇",
   "fullName": "赤蛮奇",
@@ -14,9 +14,15 @@
     "地面",
     "远程",
     "射手",
-    "闭目射击",
     "高伤害",
     "手短"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "闭目射击",
+      "passiveIcon": "赤蛮奇闭目射击.png"
+    }
   ],
   "hp": 56,
   "armor": 2,
@@ -24,7 +30,7 @@
   "speed": 4,
   "sight": 18,
   "attack": "12*2",
-  "attackSpeed": 1.25,
+  "attackSpeed": 1.32,
   "distance": 4,
   "upgradeSkill": [
     {
@@ -42,5 +48,12 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": true,
+  "skinName": "冬夏边际的噩梦 赤蛮奇",
+  "skinBbbStarAmount": 320,
+  "isLive2D": false,
   "category": "兵种"
 }

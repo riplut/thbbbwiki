@@ -1,0 +1,76 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "灵梦(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "重做了所有的特效"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "米斯蒂娅",
+      "changeSkill1": [
+        "现在会在距离敌人9的时候提前唱歌鼓舞士气。",
+        "文字说明中会正确的显示AOE攻击力下降为6和AOE攻速下降为1.4/s。"
+      ],
+      "changeSkill2": [
+        "信仰2→1。",
+        "改为单体攻击。",
+        "修复了一个夜雀减移动速度幅度低于预期的BUG。"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "血量33→34",
+        "攻击力8→9",
+        "攻速1.65→1.72"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "小町",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "修复了个会换柱子的BUG"
+      ]
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "恋",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "修复了白板恋不会进入无意识状态的BUG"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "美铃",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "新皮肤：竹影清风·红美铃"
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191210",
+  "category": "更新日志"
+}

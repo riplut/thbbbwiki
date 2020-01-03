@@ -1,6 +1,6 @@
 {
   "cardID": "小伞",
-  "id": 22,
+  "id": 23,
   "oderID": 42,
   "shortName": "小伞",
   "fullName": "多多良小伞",
@@ -13,19 +13,25 @@
     "对地",
     "地面",
     "近战",
-    "战士",
-    "吓人",
+    "刺客",
     "群控",
     "破坏阵型",
     "控制",
     "脆皮"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "吓人",
+      "passiveIcon": "吓人.png"
+    }
   ],
   "hp": 60,
   "armor": 3,
   "slowspeed": 3.5,
   "speed": 7.5,
   "sight": 18,
-  "attack": 13,
+  "attack": 14,
   "attackSpeed": 1.6,
   "distance": 1.75,
   "upgradeSkill": [
@@ -44,5 +50,12 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

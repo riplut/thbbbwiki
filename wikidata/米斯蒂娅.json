@@ -13,20 +13,22 @@
     "对空/地",
     "飞行",
     "近战",
-    "战士",
+    "刺客",
     "唱歌",
     "减速",
     "AOE",
     "鸟目",
     "杂鱼"
   ],
-  "hp": 33,
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
+  "hp": 34,
   "armor": 2,
   "slowspeed": 3.2,
   "speed": 10,
   "sight": 12,
-  "attack": 8,
-  "attackSpeed": 1.65,
+  "attack": 9,
+  "attackSpeed": 1.85,
   "distance": 1,
   "upgradeSkill": [
     {
@@ -34,15 +36,20 @@
       "introduction": "夜雀1升级",
       "icon": "夜雀-加速.png",
       "view": "米斯蒂娅：发狂.png",
-      "cost": 1
+      "cost": 2
     },
     {
       "name": "毒符「毒蛾的鳞粉」",
       "introduction": "夜雀2升级",
       "icon": "夜雀-迷惑.png",
       "view": "米斯蒂娅：迷惑.png",
-      "cost": 2
+      "cost": 1
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

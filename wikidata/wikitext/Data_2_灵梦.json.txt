@@ -1,6 +1,6 @@
 {
   "cardID": "灵梦",
-  "id": 46,
+  "id": 47,
   "oderID": 62,
   "shortName": "灵梦",
   "fullName": "博丽灵梦",
@@ -14,16 +14,22 @@
     "地面",
     "近战",
     "战士",
-    "驱魔棒",
     "扰乱"
   ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "驱魔棒",
+      "passiveIcon": "灵梦驱魔棒.png"
+    }
+  ],
   "hp": 80,
-  "armor": 4,
+  "armor": 5,
   "slowspeed": 3.5,
   "speed": 8.5,
   "sight": 12,
   "attack": 15,
-  "attackSpeed": 2.2,
+  "attackSpeed": 2.4,
   "distance": 1.8,
   "upgradeSkill": [
     {
@@ -41,5 +47,10 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

@@ -1,6 +1,6 @@
 {
   "cardID": "雏",
-  "id": 27,
+  "id": 28,
   "oderID": 61,
   "shortName": "雏",
   "fullName": "键山雏",
@@ -13,10 +13,19 @@
     "对空/地",
     "地面",
     "远程",
-    "辅助",
-    "厄火",
-    "转",
+    "施法者",
     "牺牲"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "厄火",
+      "passiveIcon": "雏厄运之火.png"
+    },
+    {
+      "name": "转",
+      "passiveIcon": "雏转.png"
+    }
   ],
   "hp": 62,
   "armor": 0,
@@ -24,7 +33,7 @@
   "speed": 6,
   "sight": 12,
   "attack": 6,
-  "attackSpeed": 0.8,
+  "attackSpeed": 0.92,
   "distance": 6,
   "upgradeSkill": [
     {
@@ -42,5 +51,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

@@ -1,6 +1,6 @@
 {
   "cardID": "永琳",
-  "id": 50,
+  "id": 51,
   "oderID": 23,
   "shortName": "永琳",
   "fullName": "八意永琳",
@@ -13,13 +13,19 @@
     "对空/地",
     "地面",
     "远程",
-    "辅助",
-    "药瓶",
+    "施法者",
     "治疗",
     "手长",
     "不死药",
     "脆皮",
     "贵"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "药瓶",
+      "passiveIcon": "药瓶.png"
+    }
   ],
   "hp": 25,
   "armor": 2,
@@ -45,5 +51,10 @@
       "cost": 9
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

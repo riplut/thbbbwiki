@@ -1,6 +1,6 @@
 {
   "cardID": "小町",
-  "id": 39,
+  "id": 40,
   "oderID": 36,
   "shortName": "小町",
   "fullName": "小野冢小町",
@@ -14,12 +14,21 @@
     "地面",
     "近战",
     "战士",
-    "大镰刀",
-    "死神",
     "AOE",
     "突进",
     "减速",
     "低攻速"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "大镰刀",
+      "passiveIcon": "大镰刀.png"
+    },
+    {
+      "name": "死神",
+      "passiveIcon": "死神.png"
+    }
   ],
   "hp": 135,
   "armor": 4,
@@ -35,7 +44,7 @@
       "introduction": "小町1升级",
       "icon": "小町-换位.png",
       "view": "小町：换位.png",
-      "cost": 4
+      "cost": 6
     },
     {
       "name": "灵符「灵魂收割」",
@@ -45,5 +54,12 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

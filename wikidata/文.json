@@ -1,6 +1,6 @@
 {
   "cardID": "文",
-  "id": 30,
+  "id": 31,
   "oderID": 8,
   "shortName": "文",
   "fullName": "射命丸文",
@@ -14,12 +14,18 @@
     "飞行",
     "近战",
     "刺客",
-    "龙卷风",
     "快速",
     "破坏阵型",
     "突进",
     "高伤害",
     "容易送"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "龙卷风",
+      "passiveIcon": "文龙卷风.png"
+    }
   ],
   "hp": 72,
   "armor": 3,
@@ -45,5 +51,14 @@
       "cost": 7
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": true,
+  "skinName": "迷走怪奇侦探屋 文",
+  "skinBbbStarAmount": 320,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

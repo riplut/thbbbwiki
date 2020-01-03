@@ -1,6 +1,6 @@
 {
   "cardID": "荷取",
-  "id": 26,
+  "id": 27,
   "oderID": 60,
   "shortName": "荷取",
   "fullName": "河城荷取",
@@ -14,8 +14,14 @@
     "地面",
     "远程",
     "射手",
-    "水枪",
     "破坏阵型"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "水枪",
+      "passiveIcon": "河童水枪.png"
+    }
   ],
   "hp": 34,
   "armor": 1,
@@ -23,7 +29,7 @@
   "speed": 4.8,
   "sight": 12,
   "attack": "6*8",
-  "attackSpeed": 0.52,
+  "attackSpeed": 0.5,
   "distance": 7.5,
   "upgradeSkill": [
     {
@@ -41,5 +47,10 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

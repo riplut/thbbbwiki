@@ -1,6 +1,6 @@
 {
   "cardID": "梅蒂欣",
-  "id": 19,
+  "id": 20,
   "oderID": 35,
   "shortName": "梅蒂欣",
   "fullName": "梅蒂欣梅兰克莉",
@@ -14,12 +14,18 @@
     "地面",
     "远程",
     "施法者",
-    "毒",
     "自爆",
     "群控",
     "减速",
     "手短",
     "没人气"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "毒",
+      "passiveIcon": "梅迪馨毒.png"
+    }
   ],
   "hp": 44,
   "armor": 2,
@@ -45,5 +51,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

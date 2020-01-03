@@ -1,6 +1,6 @@
 {
   "cardID": "屠自古",
-  "id": 24,
+  "id": 25,
   "oderID": 52,
   "shortName": "屠自古",
   "fullName": "苏我屠自古",
@@ -13,8 +13,14 @@
     "对空/地",
     "飞行",
     "远程",
-    "射手",
-    "叉状闪电"
+    "射手"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "叉状闪电",
+      "passiveIcon": "屠自古叉状闪电.png"
+    }
   ],
   "hp": 41,
   "armor": 2,
@@ -40,5 +46,12 @@
       "cost": 3
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

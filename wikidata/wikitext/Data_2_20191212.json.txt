@@ -1,0 +1,108 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "灵梦(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "修复了特效太花导致卡的问题"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "芳香",
+      "changeSkill1": [
+        "费用4→3",
+        "现在只要芳香咬过一口的敌人死后就一定会变成僵尸，持续时间无限。"
+      ],
+      "changeSkill2": [
+        "费用3→4",
+        "中毒的敌人死后也会变成拥有16%生命值的僵尸。",
+        "修复了一个芳香毒水会对空中单位造成伤害的BUG。"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "费用14→16",
+        "移动速度3.2→3.4",
+        "攻击力7→8",
+        "毒爪传染，复活出来的僵尸血量20%→24%"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "米斯蒂娅",
+      "changeSkill1": [
+        "修复了唱一下带伤害的BUG",
+        "费用1→2"
+      ],
+      "changeSkill2": [
+        "修复了夜雀减速符实际无效的BUG"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "缩短了一半攻击前摇"
+      ]
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "露米娅",
+      "changeSkill1": [
+        "致盲几率75%→70%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速1.85/s→2.1/s"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "映姬",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "费用5→7"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191212",
+  "category": "更新日志"
+}

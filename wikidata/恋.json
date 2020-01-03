@@ -1,6 +1,6 @@
 {
   "cardID": "恋",
-  "id": 40,
+  "id": 41,
   "oderID": 43,
   "shortName": "恋",
   "fullName": "古明地恋",
@@ -14,21 +14,29 @@
     "地面",
     "近战",
     "刺客",
-    "无意识",
-    "无法察觉",
-    "破坏阵型",
     "高伤害",
     "AOE",
     "脆皮"
   ],
-  "hp": 62,
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "无意识",
+      "passiveIcon": "无意识.png"
+    },
+    {
+      "name": "无法察觉",
+      "passiveIcon": "无法察觉.png"
+    }
+  ],
+  "hp": 54,
   "armor": 3,
-  "slowspeed": 4,
+  "slowspeed": 3.65,
   "speed": 4,
   "sight": 18,
-  "attack": 28,
+  "attack": 25,
   "attackSpeed": 0.5,
-  "distance": 1,
+  "distance": 2,
   "upgradeSkill": [
     {
       "name": "抑制「超我管制」",
@@ -38,12 +46,19 @@
       "cost": 5
     },
     {
-      "name": "本能「本我解放」",
+      "name": "本能「从众心理」",
       "introduction": "恋2升级",
       "icon": "恋暴走.png",
       "view": "恋：本我.png",
-      "cost": 2
+      "cost": 7
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

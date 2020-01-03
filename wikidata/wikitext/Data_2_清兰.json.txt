@@ -1,0 +1,56 @@
+{
+  "cardID": "清兰",
+  "id": 13,
+  "oderID": 68,
+  "shortName": "清兰",
+  "fullName": "清兰",
+  "rank": "C",
+  "origin": "红魔乡",
+  "price": 8,
+  "description": "清兰的介绍",
+  "speech": "清兰的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "战士",
+    "脆皮"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "捣年糕",
+      "passiveIcon": "清兰锤子.png"
+    }
+  ],
+  "hp": 40,
+  "armor": 2,
+  "slowspeed": 3.4,
+  "speed": 7,
+  "sight": 12,
+  "attack": 10,
+  "attackSpeed": 1.85,
+  "distance": 1.35,
+  "upgradeSkill": [
+    {
+      "name": "弹符「掩护射击」",
+      "introduction": "清兰1升级",
+      "icon": "清兰子弹.png",
+      "view": "清兰子弹.png",
+      "cost": 2
+    },
+    {
+      "name": "兔符「兔子着陆」",
+      "introduction": "清兰2升级",
+      "icon": "清兰跳伞.png",
+      "view": "清兰跳伞.png",
+      "cost": 5
+    }
+  ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
+  "category": "兵种"
+}

@@ -1,0 +1,63 @@
+{
+  "cardID": "辉夜",
+  "id": 61,
+  "oderID": 67,
+  "shortName": "辉夜",
+  "fullName": "蓬莱山辉夜",
+  "rank": "S",
+  "origin": "永夜抄",
+  "price": 46,
+  "description": "辉夜的介绍",
+  "speech": "辉夜的台词",
+  "features": [
+    "对地",
+    "地面",
+    "近战",
+    "施法者"
+  ],
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "养兔子",
+      "passiveIcon": "辉夜养兔子.png"
+    },
+    {
+      "name": "家里蹲",
+      "passiveIcon": "辉夜家里蹲.png"
+    },
+    {
+      "name": "电量不足",
+      "passiveIcon": "辉夜电量不足.png"
+    }
+  ],
+  "hp": 55,
+  "armor": 0,
+  "slowspeed": 1.8,
+  "speed": 1.8,
+  "sight": 18,
+  "attack": 0,
+  "attackSpeed": 0,
+  "distance": 4.5,
+  "upgradeSkill": [
+    {
+      "name": "难题「兔子有几只」",
+      "introduction": "辉夜1升级",
+      "icon": "辉夜-近战兔子.png",
+      "view": "辉夜兔子大军.png",
+      "cost": 3
+    },
+    {
+      "name": "难题「年糕有多黏」",
+      "introduction": "辉夜2升级",
+      "icon": "辉夜-远程.png",
+      "view": "辉夜兔子远程.png",
+      "cost": 6
+    }
+  ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
+  "category": "兵种"
+}

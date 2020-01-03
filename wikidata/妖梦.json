@@ -1,6 +1,6 @@
 {
   "cardID": "妖梦",
-  "id": 31,
+  "id": 32,
   "oderID": 10,
   "shortName": "妖梦",
   "fullName": "魂魄妖梦",
@@ -14,22 +14,37 @@
     "地面",
     "近战",
     "刺客",
-    "楼观剑",
-    "白楼剑",
-    "二刀流",
-    "高伤害",
     "突进",
     "脆皮",
     "容易送"
   ],
-  "hp": 65,
+  "passiveSkillCount": 4,
+  "passiveSkill": [
+    {
+      "name": "楼观剑",
+      "passiveIcon": "妖梦楼观.png"
+    },
+    {
+      "name": "白楼剑",
+      "passiveIcon": "妖梦白楼.png"
+    },
+    {
+      "name": "二刀流",
+      "passiveIcon": "妖梦二刀流.png"
+    },
+    {
+      "name": "灵敏",
+      "passiveIcon": "灵敏.png"
+    }
+  ],
+  "hp": 68,
   "armor": 4,
   "slowspeed": 3.5,
   "speed": 7.5,
   "sight": 18,
   "attack": 15,
   "attackSpeed": 2.1,
-  "distance": 1,
+  "distance": 1.45,
   "upgradeSkill": [
     {
       "name": "剑伎「樱花闪闪」",
@@ -46,5 +61,10 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": true,
+  "isLive2D": false,
   "category": "兵种"
 }

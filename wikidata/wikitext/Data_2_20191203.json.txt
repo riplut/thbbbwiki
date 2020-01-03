@@ -1,0 +1,322 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "紫(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "火车车厢数12/18→12/16"
+      ],
+      "change": []
+    },
+    {
+      "id": 2,
+      "changeType": "自机改动",
+      "toPage": "魔理沙(自机)",
+      "changeSkill1": [
+        "天仪CD：20/16/12/8→17/14/11/8"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 3,
+      "changeType": "自机改动",
+      "toPage": "天子(自机)",
+      "changeSkill1": [
+        "导弹的命中后飞行速度提升3→3.5"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "自机改动",
+      "toPage": "灵梦(自机)",
+      "changeSkill1": [
+        "弹球的每次弹的距离和飞行时间衰减60%→85%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "铃仙",
+      "changeSkill1": [
+        "分身的CD3.5→4"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "射程12→12.5",
+        "攻速0.75/S→0.72/S"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "露米娅",
+      "changeSkill1": [
+        "致盲对队友的致盲几率25%→32%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "紫",
+      "changeSkill1": [
+        "攻速0.325/S→0.315/s"
+      ],
+      "changeSkill2": [
+        "传送CD5.5→4.8"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "妹红",
+      "changeSkill1": [
+        "飞踢的基础伤害20→17"
+      ],
+      "changeSkill2": [
+        "复活爆炸的伤害18→22"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "美铃",
+      "changeSkill1": [
+        "冲拳减伤幅度15%→9%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "韧性提升40→42"
+      ]
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "水蜜",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "信仰6→7"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 11,
+      "changeType": "兵种改动",
+      "toPage": "蕾米莉亚",
+      "changeSkill1": [
+        "信仰6→8"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 12,
+      "changeType": "兵种改动",
+      "toPage": "响子",
+      "changeSkill1": [
+        "复读CD4.5→5"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 13,
+      "changeType": "兵种改动",
+      "toPage": "映姬",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.9/s→0.835/s"
+      ]
+    },
+    {
+      "id": 14,
+      "changeType": "兵种改动",
+      "toPage": "天子",
+      "changeSkill1": [
+        "要石现在会以1.2距离/秒的速度缓缓前进"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 15,
+      "changeType": "兵种改动",
+      "toPage": "妖梦",
+      "changeSkill1": [
+        "樱花闪攻击力14→11"
+      ],
+      "changeSkill2": [
+        "分身攻击力80%→86%"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "获得25韧性"
+      ]
+    },
+    {
+      "id": 16,
+      "changeType": "兵种改动",
+      "toPage": "心",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "狼面冲刺伤害10→16"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 17,
+      "changeType": "兵种改动",
+      "toPage": "芙兰朵露",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "暴击重新获得15%的AOE效果"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "获得25韧性"
+      ]
+    },
+    {
+      "id": 18,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [
+        "强化符的韧性提升50%→66%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 19,
+      "changeType": "兵种改动",
+      "toPage": "大妖精",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "魂的持续时间5→6",
+        "魂的拾取范围提升1→2.5"
+      ]
+    },
+    {
+      "id": 20,
+      "changeType": "兵种改动",
+      "toPage": "诹访子",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "修改了行为逻辑：现在青蛙不再会一直盯着最近的敌人,会每次攻击重新在攻击范围内随机找一个目标然后跳她脸",
+        "跳人攻击力27→22"
+      ]
+    },
+    {
+      "id": 21,
+      "changeType": "兵种改动",
+      "toPage": "慧音",
+      "changeSkill1": [
+        "隐藏符信仰5→6"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 22,
+      "changeType": "兵种改动",
+      "toPage": "雏",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.8/s→0.92/s"
+      ]
+    },
+    {
+      "id": 23,
+      "changeType": "兵种改动",
+      "toPage": "灵梦",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "护甲4→5"
+      ]
+    },
+    {
+      "id": 24,
+      "changeType": "兵种改动",
+      "toPage": "赤蛮奇",
+      "changeSkill1": [
+        "飞头符飞头从可以飞5个头调整为可以飞最多8个头"
+      ],
+      "changeSkill2": [
+        "掉头符残躯血量12→18"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 25,
+      "changeType": "兵种改动",
+      "toPage": "小町",
+      "changeSkill1": [
+        "换位符距离10→8.5"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 26,
+      "changeType": "兵种改动",
+      "toPage": "恋",
+      "changeSkill1": [
+        "1符攻击后不打破隐身几率38%→42%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 27,
+      "changeType": "兵种改动",
+      "toPage": "萃香",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.88/s→0.85/s"
+      ]
+    }
+  ],
+  "version": "20191203",
+  "category": "更新日志"
+}

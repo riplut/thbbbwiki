@@ -1,6 +1,6 @@
 {
   "cardID": "咲夜",
-  "id": 32,
+  "id": 33,
   "oderID": 13,
   "shortName": "咲夜",
   "fullName": "十六夜咲夜",
@@ -14,12 +14,21 @@
     "地面",
     "远程",
     "射手",
-    "三连发",
-    "PAD",
     "控制",
     "瞬间移动",
     "持续火力",
     "手短"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "三连发",
+      "passiveIcon": "三连发-图书.png"
+    },
+    {
+      "name": "PAD",
+      "passiveIcon": "咲夜PAD.png"
+    }
   ],
   "hp": 48,
   "armor": 5,
@@ -27,7 +36,7 @@
   "speed": 4.8,
   "sight": 12,
   "attack": 10,
-  "attackSpeed": 0.7,
+  "attackSpeed": 0.73,
   "distance": 6.5,
   "upgradeSkill": [
     {
@@ -45,5 +54,12 @@
       "cost": 7
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "传统旗袍 咲夜",
+  "skinBbbStarAmount": 180,
+  "isLive2D": false,
   "category": "兵种"
 }

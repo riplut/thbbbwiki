@@ -14,8 +14,14 @@
     "地面",
     "远程",
     "射手",
-    "水泡泡",
     "杂鱼"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "水泡泡",
+      "passiveIcon": "若鹭姬水泡泡.png"
+    }
   ],
   "hp": 27,
   "armor": 0,
@@ -41,5 +47,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate-log": "node migrate-wiki",
     "migrate": "node migrate",
-    "copy": "cd database && copy.bat"
+    "copy": "cd database && copy.bat",
+    "update": "cd database && DatebaseUpdate.bat"
   },
   "author": "",
   "license": "ISC",

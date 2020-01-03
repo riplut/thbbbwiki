@@ -1,6 +1,6 @@
 {
   "cardID": "蕾蒂",
-  "id": 16,
+  "id": 17,
   "oderID": 12,
   "shortName": "蕾蒂",
   "fullName": "蕾蒂怀特洛克",
@@ -14,10 +14,16 @@
     "地面",
     "远程",
     "施法者",
-    "暴风雪",
     "减速",
     "AOE",
     "手短"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "暴风雪",
+      "passiveIcon": "蕾蒂暴风雪.png"
+    }
   ],
   "hp": 57,
   "armor": 1,
@@ -43,5 +49,12 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": true,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

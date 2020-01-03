@@ -1,6 +1,6 @@
 {
   "cardID": "美铃",
-  "id": 15,
+  "id": 16,
   "oderID": 11,
   "shortName": "美铃",
   "fullName": "红美铃",
@@ -14,14 +14,23 @@
     "地面",
     "近战",
     "战士",
-    "彩虹旋风",
-    "功夫",
     "AOE",
     "扰乱",
     "高血量",
     "偷懒"
   ],
-  "hp": 88,
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "彩虹旋风",
+      "passiveIcon": "美铃彩虹旋风.png"
+    },
+    {
+      "name": "功夫",
+      "passiveIcon": "美铃功夫.png"
+    }
+  ],
+  "hp": 93,
   "armor": 3,
   "slowspeed": 3.8,
   "speed": 6,
@@ -45,5 +54,14 @@
       "cost": 3
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": true,
+  "skinName": "竹影清风 红美铃",
+  "skinBbbStarAmount": 480,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

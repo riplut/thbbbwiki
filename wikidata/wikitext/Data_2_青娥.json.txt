@@ -1,6 +1,6 @@
 {
   "cardID": "青娥",
-  "id": 44,
+  "id": 45,
   "oderID": 57,
   "shortName": "青娥",
   "fullName": "霍青娥",
@@ -11,10 +11,16 @@
   "speech": "霍青娥的台词",
   "features": [
     "对地",
-    "飞行",
+    "地面",
     "远程",
-    "施法者",
-    "养小鬼"
+    "施法者"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "养小鬼",
+      "passiveIcon": "养小鬼.png"
+    }
   ],
   "hp": 52,
   "armor": 2,
@@ -40,5 +46,10 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

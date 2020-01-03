@@ -14,13 +14,22 @@
     "飞行",
     "远程",
     "射手",
-    "妖精",
-    "星光",
     "便宜",
     "快速",
     "脆皮"
   ],
-  "hp": 24,
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    },
+    {
+      "name": "星光",
+      "passiveIcon": "星光.png"
+    }
+  ],
+  "hp": 21,
   "armor": 0,
   "slowspeed": 4.5,
   "speed": 6.5,
@@ -44,5 +53,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

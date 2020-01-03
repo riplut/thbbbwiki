@@ -13,13 +13,25 @@
     "对空/地",
     "地面",
     "远程",
-    "辅助",
-    "妖精",
-    "月光",
-    "穿透",
+    "施法者",
     "便宜",
     "快速",
     "脆皮"
+  ],
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    },
+    {
+      "name": "月光",
+      "passiveIcon": "月光.png"
+    },
+    {
+      "name": "穿透",
+      "passiveIcon": "穿透.png"
+    }
   ],
   "hp": 23,
   "armor": 1,
@@ -45,5 +57,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

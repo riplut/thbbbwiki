@@ -1,6 +1,6 @@
 {
   "cardID": "神奈子",
-  "id": 57,
+  "id": 58,
   "oderID": 55,
   "shortName": "神奈子",
   "fullName": "八坂神奈子",
@@ -13,10 +13,16 @@
     "对空/地",
     "地面",
     "远程",
-    "射手",
-    "麻将山"
+    "射手"
   ],
-  "hp": 65,
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "麻将山",
+      "passiveIcon": "神奈子麻将山.png"
+    }
+  ],
+  "hp": 62,
   "armor": 3,
   "slowspeed": 3.5,
   "speed": 4.8,
@@ -40,5 +46,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

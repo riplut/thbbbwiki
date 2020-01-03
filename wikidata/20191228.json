@@ -1,0 +1,126 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "清兰",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "费用3→5"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "布都",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.535/s→0.52/s"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "芳香",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "信仰6→8"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "衣玖",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量70→74"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "椛",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量44→46"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻击力10→16",
+        "攻速2.6→1.35"
+      ]
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "小恶魔",
+      "changeSkill1": [
+        "费用2→3"
+      ],
+      "changeSkill2": [
+        "费用1→2"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "莉格露",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速1.82→1.75"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "响子",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "费用14→15"
+      ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191228",
+  "category": "更新日志"
+}

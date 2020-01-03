@@ -31,6 +31,7 @@ function p.card_page_show(f)
     end
     end
     local version=mw.huiji.db.find({['_id'] ='Data:Version.json'})[1]
+    local tips=mw.huiji.db.find({['_id'] ='Data:Tips.json'})[1]
     local db=mw.huiji.db.find({["category"]="兵种",["cardID"]=pagename})[1]
     local skillIcon={}----防止技能icon跟技能view重名
     local re
@@ -68,8 +69,12 @@ function p.card_page_show(f)
             ..'<div class="cardinfo-maininfo-group2-line2">'
             ..'<div class="cardinfo-shortName">'..tr(db["fullName"])..'</div>'
             ..'<div class="cardinfo-origin">'..tr(db["origin"])..'</div>'
-            ..'<div class="cardinfo-bluepoint">[[file:货币 蓝点.png|x25px|link=]]</div>'
-            ..'<div class="cardinfo-price">'..db["price"]..'</div>'
+            ..'<div class="cardinfo-bluepoint"><span>[[file:货币 蓝点.png|x25px|link=]]'..db["price"]..'</span></div>'
+            ..'<div class="cardinfo-shortName">'..db["rankDescription"]..'</div>'
+            ..'<div class="cardinfo-bluepoint"><span>[[file:bbbStar.png|x25px|link=]]'..db["bbbStarAmount"]..'</span></div>'
+            --..'<div class="cardinfo-price">'..db["bbbStarAmount"]..'</div>'
+            ..'<div class="cardinfo-bluepoint"><span>[[file:金币.png|x25px|link=]]'..db["goldAmount"]..'</span></div>'
+            --..'<div class="cardinfo-price">'..db["goldAmount"]..'</div>'
             ..'</div>'
             ..'<div class="cardinfo-maininfo-group2-line3">'
             ..'{{RichTab'
@@ -126,8 +131,10 @@ function p.card_page_show(f)
             ..'<div class="meta-item-value">'..db["speed"]..'/s</div>'
             ..'</div>'
             ..'</div>'
-    re=re..'<h2>'..tr('台词')..'</h2>'
-    re=re..tr(db["speech"])
+    if tr(db["speech"]) then
+        re=re..'<h2>'..tr('台词')..'</h2>'
+        re=re..tr(db["speech"])
+    end
     re=re..'<h2>'..tr('技能')..'</h2>'
             ..'<div class="cardinfo-group">'
             ..'<div class="cardinfo-group1">'
@@ -161,6 +168,30 @@ function p.card_page_show(f)
             ..'</div>'
             ..'</div>'
             ..'</div>'
+    --被动
+    if(db["passiveSkillCount"]) then
+        for i=1,db["passiveSkillCount"],1 do
+            re=re..'<div class="cardinfo-group2">'
+                ..'<div class="cardinfo-group2-line1">'
+                ..'<div class="cardinfo-skill-icon">[[file:'..db["passiveSkill"][i]["passiveIcon"]..'|x60px|link=]]</div>'
+                ..'<div class="cardinfo-skill-title">'..tr(db["passiveSkill"][i]["name"])..' :</div>'
+                ..'<div class="cardinfo-group2-line2" style="margin-left:1rem">'
+                ..'<div class="cardinfo-skill-title">'..tr(db["passiveSkill"][i]["name"]..'描述')..'</div>'
+                ..'</div>'
+                ..'</div>'
+                ..'</div>'
+       end
+    end
+
+    --皮肤
+    if db["isSkin"] then
+        re=re..'<h2>'..'皮肤'..'</h2>'
+        if(db["skinName"]) then
+        	re=re..'<li>'..db["skinName"]..'('
+            ..'<span>[[file:bbbStar.png|x25px|link=]]'..db["skinBbbStarAmount"]..')</span></li>'
+        end
+    end
+
     for _,feature_id in pairs(db["features"]) do
         re=re..'[[category:'..tr(feature_id)..']]'
     end

@@ -3,7 +3,7 @@ const xlsx = require('xlsx');
 const Papa = require('papaparse');
 const _ = require('lodash');
 const path = require('path');
-const version=20190923;//版本号
+const version=20200102;//版本号
 module.exports.version = version;
 function loadlog(filename, sheetname) {
     const dir = path.join('database', 'changelog');

@@ -1,6 +1,6 @@
 {
   "cardID": "椛",
-  "id": 14,
+  "id": 15,
   "oderID": 9,
   "shortName": "椛",
   "fullName": "犬走椛",
@@ -13,13 +13,19 @@
     "对地",
     "地面",
     "近战",
-    "肉盾",
-    "格挡",
+    "战士",
     "高护甲",
     "扰乱",
     "便宜"
   ],
-  "hp": 44,
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "格挡",
+      "passiveIcon": "椛格挡.png"
+    }
+  ],
+  "hp": 46,
   "armor": 5,
   "slowspeed": 3.5,
   "speed": 4.5,
@@ -43,5 +49,14 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": true,
+  "skinName": "合金装备 椛",
+  "skinBbbStarAmount": 480,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

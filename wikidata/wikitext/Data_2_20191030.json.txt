@@ -1,0 +1,179 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "自机改动",
+      "toPage": "紫(自机)",
+      "changeSkill1": [
+        "式神蓝消耗18→21"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "火车消耗85→90"
+      ],
+      "change": []
+    },
+    {
+      "id": 2,
+      "changeType": "自机改动",
+      "toPage": "魔理沙(自机)",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [
+        "魔炮消耗135→125"
+      ],
+      "change": []
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "衣玖",
+      "changeSkill1": [
+        "雷云冲刺速度加成1→2"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "指令攻击伤害8→4"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "攻击力9→10",
+        "攻击速度0.75→1.85",
+        "攻击速度0.75→1.85"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "妖梦",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "分身的视野11→22"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "空",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "核弹伤害16→18"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "蕾米莉亚",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量62→64",
+        "蝙蝠每次攻击的吸血降低至原来的70%"
+      ]
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "妹红",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "普攻26→28"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "小伞",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "恐惧的易伤30%→50%"
+      ]
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "咲夜",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "普攻攻速0.7→0.73"
+      ]
+    },
+    {
+      "id": 11,
+      "changeType": "兵种改动",
+      "toPage": "芙兰",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量75→80",
+        "价格40→38"
+      ]
+    },
+    {
+      "id": 12,
+      "changeType": "兵种改动",
+      "toPage": "响子",
+      "changeSkill1": [
+        "反击CD4.5→3.8"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 13,
+      "changeType": "兵种改动",
+      "toPage": "琪斯美",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量30→32"
+      ]
+    },
+    {
+      "id": 14,
+      "changeType": "兵种改动",
+      "toPage": "大妖精",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量18→22"
+      ]
+    },
+    {
+      "id": 15,
+      "changeType": "兵种改动",
+      "toPage": "恋",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻击力28→29"
+      ]
+    }
+  ],
+  "version": "20191030",
+  "category": "更新日志"
+}

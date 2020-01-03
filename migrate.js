@@ -1,5 +1,5 @@
 // const version = require('./migrate-wiki');
-const version={ version: 20190929 };
+const version={ version: 20200102};
 const fs = require('fs');
 const xlsx = require('xlsx');
 const Papa = require('papaparse');
@@ -10,8 +10,12 @@ console.log(version);
 const constructions = load('data', 'constructions');
 const skills = load('data', 'skills');
 const units = load('data', 'units');
+const tips = load('data', 'tips');
 const publishedCard = load('lobby/publishedCard');
 const heroes = load('heroes','heroes');
+const goods = load('lobby/Goods','Sheet1');
+const cardSkin = load('lobby/CardSkin','Sheet1');
+const live2D = load('lobby/Kanbanmusume','Sheet1');
 
 function load(filename, sheetname) {
   const dir = path.join('database', 'production');
@@ -54,12 +58,30 @@ function save(filename, data) {
   console.log(filename);
 }
 
+function getKey(data, key1,cardID, key2) {
+  for (const item of data) {
+    if (item[key1] === cardID) {
+      return item[key2];
+    }
+  }
+}
+//data数据中id跟cardID匹配,返回_key的值
 function getVal(cardID, data, _key) {
   for (const item of data) {
     if (item.id === cardID) {
       return item[_key];
     }
   }
+}
+
+function getGold(cardID, data, _key) {
+    for (const item of data) {
+      if(item['itemId']){
+        if (item['itemId'][0] === cardID) {
+          return item[_key];
+        }
+      }
+    }
 }
 
 function getItem(cardID, data) {
@@ -87,15 +109,32 @@ for (const item of publishedCard) {
   itemtemp.description = getVal(item.cardName, constructions, 'description');
   itemtemp.speech = getVal(item.cardName, constructions, 'speech');
   itemtemp.features = [];
+  itemtemp.passiveSkillCount=0;
+  itemtemp.passiveSkill=[];
+
   //特性
   let i = 0;
   for (let index = 0; index < 12; index++) {
     const key = `特性${index}`;
     if (getVal(item.cardName, constructions, key) !== undefined || null) {
-      itemtemp.features[i] = getVal(item.cardName, constructions, key);
-      ++i;
+
+      if(!getKey(tips,"id",getVal(item.cardName, constructions, key),"技能")){
+        itemtemp.features[i] = getVal(item.cardName, constructions, key);
+        ++i;
+      }
+      else{
+        //被动技能
+        let passiveSkillObj={};
+        passiveSkillObj.name=getKey(tips,"id",getVal(item.cardName, constructions, key),"id");
+        passiveSkillObj.passiveIcon=getKey(tips,"id",getVal(item.cardName, constructions, key),"大厅图标").slice(10);
+        itemtemp.passiveSkill.push(passiveSkillObj);
+        itemtemp.passiveSkillCount++;
+      }
     }
   }
+
+
+  //
   itemtemp.hp = getVal(item.cardName, constructions, '血量');
   itemtemp.armor = getVal(item.cardName, constructions, '护甲');
   const unit=getVal(item.cardName, constructions, 'unit');
@@ -115,6 +154,28 @@ for (const item of publishedCard) {
     itemtemp.upgradeSkill[i].view = getVal(`${item.cardName}${i + 1}`, constructions, '升级示意图');
     itemtemp.upgradeSkill[i].cost = getVal(`${item.cardName}${i + 1}`, constructions, '信仰');
   }
+  //商店价格
+  itemtemp.bbbStarAmount=getGold(item.itemId,goods,'currencyAmount');
+  itemtemp.goldAmount=getGold(item.itemId,goods,'goldAmount');
+  //
+  itemtemp.rankDescription=getGold(item.itemId,goods,'description')
+  //皮肤
+  const skinId=getKey(cardSkin,'cardId',item.cardName,'itemId');
+  if(skinId){
+    itemtemp.isSkin=true;
+    itemtemp.skinName=getGold(skinId,goods,'name');
+    itemtemp.skinBbbStarAmount=getGold(skinId,goods,'currencyAmount');
+    itemtemp.skinGoldAmount=getGold(skinId,goods,'goldAmount');
+  }
+  else itemtemp.isSkin=false;
+  //看板娘
+  const live2DId=getKey(live2D,'cardID',item.cardName,'itemId');
+  if(live2DId){
+    itemtemp.isLive2D=true;
+    itemtemp.live2DBbbStarAmount=getGold(live2DId,goods,'currencyAmount');
+    itemtemp.live2DGoldAmount=getGold(live2DId,goods,'goldAmount');
+  }
+  else itemtemp.isLive2D=false;
   //
   itemtemp.category = '兵种';
 
@@ -155,6 +216,7 @@ for (const item of heroes) {
         skill[i]=skill[i]||[];
       }while (skill[i].id);
     }
+
     const outputName = item.id;
     save(`${outputName}`, itemtemp);
   }
@@ -186,5 +248,21 @@ for (let data of [...Object.values(_locales)]) {
   _.remove(data, item => item.id === null || item.id === undefined);
 }
 
+//被动图标表
+/*_.remove(tips, item => item.id === null || item.id === undefined);
+for (let data of [...Object.values(tips)]) {
+  delete data.描述;
+  delete data.名字;
+  delete data["技能？"];
+  delete data["类型？"];
+  if(data["大厅图标"]){
+    data.大厅图标=data["大厅图标"].slice(10);
+  }
+}
+const _tips={
+  tips:tips
+}*/
+
 save('locales', _locales);
+//save('tips',_tips);
 save('version',version);

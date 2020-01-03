@@ -1,6 +1,6 @@
 {
   "cardID": "天子",
-  "id": 38,
+  "id": 39,
   "oderID": 22,
   "shortName": "天子",
   "fullName": "比那名居天子",
@@ -13,10 +13,12 @@
     "对地",
     "地面",
     "近战",
-    "肉盾",
+    "战士",
     "要石",
     "持续火力"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 86,
   "armor": 5,
   "slowspeed": 3.2,
@@ -38,8 +40,15 @@
       "introduction": "天子2升级",
       "icon": "天子_地下.png",
       "view": "天子：绯想之剑.png",
-      "cost": 4
+      "cost": 3
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

@@ -1,6 +1,6 @@
 {
   "cardID": "山女",
-  "id": 18,
+  "id": 19,
   "oderID": 34,
   "shortName": "山女",
   "fullName": "黑谷山女",
@@ -22,6 +22,8 @@
     "脆皮",
     "画风刺激"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 46,
   "armor": 2,
   "slowspeed": 3.5,
@@ -46,5 +48,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

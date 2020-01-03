@@ -14,13 +14,19 @@
     "地面",
     "远程",
     "特殊",
-    "妖精",
     "牺牲",
     "快速",
     "脆皮",
     "杂鱼"
   ],
-  "hp": 18,
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    }
+  ],
+  "hp": 22,
   "armor": 1,
   "slowspeed": 5,
   "speed": 7.5,
@@ -44,5 +50,10 @@
       "cost": 1
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

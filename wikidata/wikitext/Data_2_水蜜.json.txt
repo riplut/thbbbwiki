@@ -1,6 +1,6 @@
 {
   "cardID": "水蜜",
-  "id": 36,
+  "id": 37,
   "oderID": 19,
   "shortName": "水蜜",
   "fullName": "村纱水蜜",
@@ -13,7 +13,7 @@
     "对地",
     "地面",
     "近战",
-    "肉盾",
+    "战士",
     "船长",
     "控制",
     "突进",
@@ -21,6 +21,8 @@
     "死亡飞船",
     "低攻速"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 108,
   "armor": 5,
   "slowspeed": 3.5,
@@ -42,8 +44,15 @@
       "introduction": "船长2升级",
       "icon": "船长-船锚.png",
       "view": "村纱水蜜：丢锚.png",
-      "cost": 6
+      "cost": 7
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "海盗船长 水蜜",
+  "skinBbbStarAmount": 480,
+  "isLive2D": false,
   "category": "兵种"
 }

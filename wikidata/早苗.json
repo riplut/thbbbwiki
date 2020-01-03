@@ -1,6 +1,6 @@
 {
   "cardID": "早苗",
-  "id": 33,
+  "id": 34,
   "oderID": 14,
   "shortName": "早苗",
   "fullName": "东风谷早苗",
@@ -13,12 +13,14 @@
     "对空/地",
     "地面",
     "远程",
-    "辅助",
+    "施法者",
     "破坏阵型",
     "治疗",
     "巫女",
     "手短"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 68,
   "armor": 2,
   "slowspeed": 3.5,
@@ -43,5 +45,14 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": true,
+  "skinName": "布偶青蛙 早苗",
+  "skinBbbStarAmount": 320,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

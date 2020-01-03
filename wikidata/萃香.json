@@ -1,6 +1,6 @@
 {
   "cardID": "萃香",
-  "id": 58,
+  "id": 59,
   "oderID": 58,
   "shortName": "萃香",
   "fullName": "伊吹萃香",
@@ -13,8 +13,14 @@
     "对地",
     "地面",
     "近战",
-    "召唤师",
-    "花火"
+    "施法者"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "花火",
+      "passiveIcon": "西瓜花火.png"
+    }
   ],
   "hp": 70,
   "armor": 4,
@@ -22,7 +28,7 @@
   "speed": 5.5,
   "sight": 18,
   "attack": 10,
-  "attackSpeed": 0.88,
+  "attackSpeed": 0.85,
   "distance": 9,
   "upgradeSkill": [
     {
@@ -40,5 +46,10 @@
       "cost": 7
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

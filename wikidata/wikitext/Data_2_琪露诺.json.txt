@@ -1,6 +1,6 @@
 {
   "cardID": "琪露诺",
-  "id": 13,
+  "id": 14,
   "oderID": 1,
   "shortName": "琪露诺",
   "fullName": "琪露诺",
@@ -14,12 +14,21 @@
     "飞行",
     "远程",
     "射手",
-    "妖精",
-    "冰箭",
     "减速",
     "持续火力",
     "最强",
     "笨蛋"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    },
+    {
+      "name": "冰箭",
+      "passiveIcon": "琪露诺冰箭.png"
+    }
   ],
   "hp": 26,
   "armor": 1,
@@ -45,5 +54,14 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "圣诞装扮 琪露诺",
+  "skinBbbStarAmount": 180,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

@@ -1,6 +1,6 @@
 {
   "cardID": "慧音",
-  "id": 21,
+  "id": 22,
   "oderID": 41,
   "shortName": "慧音",
   "fullName": "上白泽慧音",
@@ -18,6 +18,8 @@
     "治疗",
     "控制"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 36,
   "armor": 2,
   "slowspeed": 3.5,
@@ -32,7 +34,7 @@
       "introduction": "慧音1升级",
       "icon": "慧音历史.png",
       "view": "慧音：隐藏历史.png",
-      "cost": 5
+      "cost": 6
     },
     {
       "name": "新史「历史发明」",
@@ -42,5 +44,12 @@
       "cost": 1
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

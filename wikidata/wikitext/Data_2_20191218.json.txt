@@ -1,0 +1,109 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "帕露西",
+      "changeSkill1": [
+        "1符，咒怨「积怨返」3费。",
+        "帕露西随着自己血量越来越残，会对敌人越来越嫉妒，攻速最多提升至250%，移速最多提升至130%。"
+      ],
+      "changeSkill2": [
+        "2符，妒符「妒火中烧」5费",
+        "帕露西的攻击会让敌人进入狂乱状态，攻/移速提高40%，但是受到68%的易伤。"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "大型重做",
+        "费用20",
+        "移动速度3.3/5",
+        "血量60，护甲2",
+        "攻击力8，射程4.75，攻速1.2/s",
+        "失去被动 煽动",
+        "新被动。绿眼怪兽：攻击附带的负面情绪会传导到最多3个单位，对他们同时造成一次普攻伤害。"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "美铃",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量88→93"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "赤蛮奇",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "基础攻速1.25/s→1.32/s"
+      ]
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "莉格露",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "保命符费用2→3"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "芳香",
+      "changeSkill1": [
+        "费用3→2"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量46→52",
+        "护甲3→2",
+        "变芳香的僵尸病毒持续时间3.5→3"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "映姬",
+      "changeSkill1": [
+        "费用3→4"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191218",
+  "category": "更新日志"
+}

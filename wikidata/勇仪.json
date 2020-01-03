@@ -1,6 +1,6 @@
 {
   "cardID": "勇仪",
-  "id": 52,
+  "id": 53,
   "oderID": 25,
   "shortName": "勇仪",
   "fullName": "星熊勇仪",
@@ -13,12 +13,24 @@
     "对地",
     "地面",
     "近战",
-    "肉盾",
-    "独角",
-    "喝酒",
-    "鬼",
+    "战士",
     "高血量",
     "贵"
+  ],
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "独角",
+      "passiveIcon": "勇仪独角.png"
+    },
+    {
+      "name": "喝酒",
+      "passiveIcon": "勇仪喝酒.png"
+    },
+    {
+      "name": "鬼",
+      "passiveIcon": "鬼.png"
+    }
   ],
   "hp": 140,
   "armor": 6,
@@ -44,5 +56,10 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

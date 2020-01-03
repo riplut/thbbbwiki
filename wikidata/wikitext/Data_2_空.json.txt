@@ -1,6 +1,6 @@
 {
   "cardID": "空",
-  "id": 48,
+  "id": 49,
   "oderID": 18,
   "shortName": "空",
   "fullName": "灵乌路空",
@@ -20,6 +20,8 @@
     "爆发",
     "笨蛋"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 60,
   "armor": 2,
   "slowspeed": 3.2,
@@ -44,5 +46,12 @@
       "cost": 8
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "歼灭天使 空",
+  "skinBbbStarAmount": 180,
+  "isLive2D": false,
   "category": "兵种"
 }

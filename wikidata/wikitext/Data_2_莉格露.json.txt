@@ -20,13 +20,15 @@
     "虫子",
     "脆皮"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 18,
   "armor": 0,
   "slowspeed": 3.8,
   "speed": 4.8,
   "sight": 20,
   "attack": 7,
-  "attackSpeed": 1.82,
+  "attackSpeed": 1.75,
   "distance": 7.5,
   "upgradeSkill": [
     {
@@ -41,8 +43,13 @@
       "introduction": "虫子2升级",
       "icon": "虫子-隐身.png",
       "view": "莉格露：隐身.png",
-      "cost": 2
+      "cost": 3
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

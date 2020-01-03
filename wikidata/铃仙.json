@@ -1,6 +1,6 @@
 {
   "cardID": "铃仙",
-  "id": 35,
+  "id": 36,
   "oderID": 17,
   "shortName": "铃仙",
   "fullName": "铃仙优昙华院因幡",
@@ -14,12 +14,18 @@
     "地面",
     "远程",
     "射手",
-    "三连发",
     "手长",
     "分身",
     "持续火力",
     "贵",
     "脆皮"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "三连发",
+      "passiveIcon": "三连发-图书.png"
+    }
   ],
   "hp": 55,
   "armor": 3,
@@ -27,8 +33,8 @@
   "speed": 4.8,
   "sight": 18,
   "attack": 9,
-  "attackSpeed": 0.76,
-  "distance": 12,
+  "attackSpeed": 0.685,
+  "distance": 12.5,
   "upgradeSkill": [
     {
       "name": "幻兔「平行交叉」",
@@ -45,5 +51,14 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": true,
+  "skinName": "月战老兵 铃仙",
+  "skinBbbStarAmount": 320,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

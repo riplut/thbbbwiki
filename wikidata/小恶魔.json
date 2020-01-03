@@ -17,6 +17,8 @@
     "便宜",
     "脆皮"
   ],
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
   "hp": 23,
   "armor": 2,
   "slowspeed": 4,
@@ -31,15 +33,22 @@
       "introduction": "小恶魔1升级",
       "icon": "小恶魔1.png",
       "view": "小恶魔魅惑.png",
-      "cost": 2
+      "cost": 3
     },
     {
       "name": "杂鱼「大玉」",
       "introduction": "小恶魔2升级",
       "icon": "小恶魔2.png",
       "view": "小恶魔泡泡.png",
-      "cost": 1
+      "cost": 2
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": true,
+  "skinName": "嘻哈风格 小恶魔",
+  "skinBbbStarAmount": 720,
+  "isLive2D": false,
   "category": "兵种"
 }

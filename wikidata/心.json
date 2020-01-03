@@ -1,6 +1,6 @@
 {
   "cardID": "心",
-  "id": 47,
+  "id": 48,
   "oderID": 65,
   "shortName": "心",
   "fullName": "秦心",
@@ -14,12 +14,24 @@
     "地面",
     "近战",
     "战士",
-    "面具",
-    "般若面",
-    "若女面",
     "瞎切换"
   ],
-  "hp": 82,
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "面具",
+      "passiveIcon": "秦心面具.png"
+    },
+    {
+      "name": "般若面",
+      "passiveIcon": "秦心般若面.png"
+    },
+    {
+      "name": "若女面",
+      "passiveIcon": "秦心若女面.png"
+    }
+  ],
+  "hp": 92,
   "armor": 4,
   "slowspeed": 3.5,
   "speed": 8.5,
@@ -43,5 +55,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

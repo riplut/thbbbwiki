@@ -13,11 +13,20 @@
     "对空/地",
     "地面",
     "远程",
-    "辅助",
-    "妖精",
-    "春天啦",
+    "施法者",
     "治疗",
     "脆皮"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "妖精",
+      "passiveIcon": "妖精.png"
+    },
+    {
+      "name": "春天啦",
+      "passiveIcon": "莉莉春天.png"
+    }
   ],
   "hp": 22,
   "armor": 0,
@@ -43,5 +52,12 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": true,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

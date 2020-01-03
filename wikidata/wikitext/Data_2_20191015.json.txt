@@ -1,0 +1,116 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "妹红",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "爆炸伤害16→18",
+        "爆炸击退距离3.5→6.5"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "基础攻击力降低30→26",
+        "新被动:火鸡腿。25%几率踢出165%伤害并且击退7距离",
+        "视觉效果全面重做"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "小伞",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "视觉效果重做",
+        "攻击力13→14"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "铃仙",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.76→0.74"
+      ]
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "秦心",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量87→92"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "椛",
+      "changeSkill1": [
+        "举盾格挡几率75%→65%"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "格挡几率25%→22%"
+      ]
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "山女",
+      "changeSkill1": [
+        "CD8→7.25"
+      ],
+      "changeSkill2": [
+        "变身时间3.2→2.4",
+        "变身CD20→14"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "荷取",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.52→0.5"
+      ]
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "蕾米莉亚",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量88→82"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "露米娅",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量40→39"
+      ]
+    }
+  ],
+  "version": "20191015",
+  "category": "更新日志"
+}

@@ -1,6 +1,6 @@
 {
   "cardID": "诹访子",
-  "id": 56,
+  "id": 57,
   "oderID": 53,
   "shortName": "诹访子",
   "fullName": "洩矢诹访子",
@@ -14,12 +14,18 @@
     "地面",
     "近战",
     "战士",
-    "蛙跳",
     "不死",
     "高护甲",
-    "呱"
+    "呱~"
   ],
-  "hp": 120,
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "蛙跳",
+      "passiveIcon": "蛙跳.png"
+    }
+  ],
+  "hp": 105,
   "armor": 5,
   "slowspeed": 0,
   "speed": 0,
@@ -43,5 +49,12 @@
       "cost": 3
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

@@ -1,0 +1,136 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "铃仙",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.72/s→0.685/s"
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "布都",
+      "changeSkill1": [
+        "烧建筑CD12→9"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "天子",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "信仰4→3"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "2.1→2.25"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "芳香",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "毒水费用4→6"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 6,
+      "changeType": "兵种改动",
+      "toPage": "萃香",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "踩人基础伤害12→16",
+        "现在一次最多踩4个单位"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "基础普攻13→16"
+      ]
+    },
+    {
+      "id": 7,
+      "changeType": "兵种改动",
+      "toPage": "芙兰朵露",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速1.92→2"
+      ]
+    },
+    {
+      "id": 8,
+      "changeType": "兵种改动",
+      "toPage": "妖梦",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "血量65→68"
+      ]
+    },
+    {
+      "id": 9,
+      "changeType": "兵种改动",
+      "toPage": "米斯蒂娅",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "减攻速幅度35%→45%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 10,
+      "changeType": "兵种改动",
+      "toPage": "露娜",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "光环的减伤幅度25%→21%"
+      ],
+      "changeSkill3": [],
+      "change": []
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191217",
+  "category": "更新日志"
+}

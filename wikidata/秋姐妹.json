@@ -14,11 +14,17 @@
     "地面",
     "远程",
     "特殊",
-    "姐妹",
     "丰收",
     "牺牲",
     "杂鱼",
     "没人气"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "姐妹",
+      "passiveIcon": "秋姐妹.png"
+    }
   ],
   "hp": 9,
   "armor": 0,
@@ -44,5 +50,12 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "新春快乐 秋姐妹",
+  "skinBbbStarAmount": 180,
+  "isLive2D": false,
   "category": "兵种"
 }

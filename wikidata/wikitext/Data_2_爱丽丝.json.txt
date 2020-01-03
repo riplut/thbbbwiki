@@ -1,6 +1,6 @@
 {
   "cardID": "爱丽丝",
-  "id": 17,
+  "id": 18,
   "oderID": 16,
   "shortName": "爱丽丝",
   "fullName": "爱丽丝玛格特罗伊德",
@@ -13,13 +13,19 @@
     "对空/地",
     "地面",
     "远程",
-    "召唤师",
-    "人偶师",
+    "施法者",
     "高伤害",
     "爆发",
     "撤退",
     "本体废柴",
     "脆皮"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "人偶师",
+      "passiveIcon": "人偶师.png"
+    }
   ],
   "hp": 35,
   "armor": 0,
@@ -45,5 +51,10 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

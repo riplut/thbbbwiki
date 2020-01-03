@@ -1,6 +1,6 @@
 {
   "cardID": "帕秋莉",
-  "id": 42,
+  "id": 43,
   "oderID": 51,
   "shortName": "帕秋莉",
   "fullName": "帕秋莉·诺蕾姬",
@@ -14,9 +14,15 @@
     "飞行",
     "远程",
     "施法者",
-    "三连发",
     "高伤害",
     "病弱"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "三连发",
+      "passiveIcon": "三连发-图书.png"
+    }
   ],
   "hp": 55,
   "armor": 1,
@@ -24,7 +30,7 @@
   "speed": 4.5,
   "sight": 18,
   "attack": "12*3",
-  "attackSpeed": 0.42,
+  "attackSpeed": 0.44,
   "distance": 9,
   "upgradeSkill": [
     {
@@ -42,5 +48,10 @@
       "cost": 6
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

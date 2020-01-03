@@ -1,6 +1,6 @@
 {
   "cardID": "觉",
-  "id": 43,
+  "id": 44,
   "oderID": 54,
   "shortName": "觉",
   "fullName": "古明地觉",
@@ -13,16 +13,22 @@
     "对空/地",
     "地面",
     "远程",
-    "射手",
-    "读心"
+    "射手"
+  ],
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "读心",
+      "passiveIcon": "觉读心.png"
+    }
   ],
   "hp": 55,
   "armor": 3,
   "slowspeed": 3.5,
   "speed": 4.8,
   "sight": 18,
-  "attack": 16,
-  "attackSpeed": 1.08,
+  "attack": 14,
+  "attackSpeed": 1.1,
   "distance": 8.5,
   "upgradeSkill": [
     {
@@ -30,7 +36,7 @@
       "introduction": "觉1升级",
       "icon": "觉-恐惧.png",
       "view": "觉恐惧.png",
-      "cost": 2
+      "cost": 7
     },
     {
       "name": "脑符「测谎仪」",
@@ -40,5 +46,12 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": true,
+  "skinName": "怨灵也为之惧怯的少女 觉",
+  "skinBbbStarAmount": 320,
+  "isLive2D": false,
   "category": "兵种"
 }

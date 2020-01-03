@@ -1,6 +1,6 @@
 {
   "cardID": "布都",
-  "id": 45,
+  "id": 46,
   "oderID": 59,
   "shortName": "布都",
   "fullName": "物部布都",
@@ -14,10 +14,19 @@
     "地面",
     "近战",
     "刺客",
-    "太乙真火",
-    "炎风",
     "控制",
     "破坏阵型"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "太乙真火",
+      "passiveIcon": "太乙真火.png"
+    },
+    {
+      "name": "炎风",
+      "passiveIcon": "炎风.png"
+    }
   ],
   "hp": 63,
   "armor": 4,
@@ -43,5 +52,10 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

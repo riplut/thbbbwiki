@@ -1,0 +1,73 @@
+{
+  "changeData": [
+    {
+      "id": 1,
+      "changeType": "兵种改动",
+      "toPage": "蕾米莉亚",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "暴击几率40%→36%",
+        "暴击伤害比例482%→650%",
+        "移除了暴击时的溅射伤害。暴击时会小幅度击飞敌人。"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "基础攻击力调整到28→18",
+        "吸血比例调整到46%→40%",
+        "新被动：毁灭之王。芙兰破坏敌人的防御，攻击过（或分身攻击过）的敌人受到36%易伤，持续3秒."
+      ]
+    },
+    {
+      "id": 2,
+      "changeType": "兵种改动",
+      "toPage": "铃仙",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "攻速0.74→0.75"
+      ]
+    },
+    {
+      "id": 3,
+      "changeType": "兵种改动",
+      "toPage": "赤蛮奇",
+      "changeSkill1": [
+        "4头变5头"
+      ],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": []
+    },
+    {
+      "id": 4,
+      "changeType": "兵种改动",
+      "toPage": "蓝",
+      "changeSkill1": [],
+      "changeSkill2": [],
+      "changeSkill3": [],
+      "change": [
+        "造价33→35"
+      ]
+    },
+    {
+      "id": 5,
+      "changeType": "兵种改动",
+      "toPage": "灵梦",
+      "changeSkill1": [],
+      "changeSkill2": [
+        "护盾值60→68"
+      ],
+      "changeSkill3": [],
+      "change": [
+        "攻速2.2→2.4"
+      ]
+    },
+    {},
+    {},
+    {},
+    {}
+  ],
+  "version": "20191021",
+  "category": "更新日志"
+}

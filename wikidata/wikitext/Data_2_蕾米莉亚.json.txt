@@ -1,6 +1,6 @@
 {
   "cardID": "蕾米莉亚",
-  "id": 49,
+  "id": 50,
   "oderID": 20,
   "shortName": "蕾米",
   "fullName": "蕾米莉亚斯卡雷特",
@@ -14,28 +14,38 @@
     "地面",
     "远程",
     "射手",
-    "弹幕",
-    "持续火力",
-    "不死",
-    "群控",
-    "高护甲",
     "手短"
   ],
-  "hp": 88,
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "弹幕",
+      "passiveIcon": "弹幕.png"
+    },
+    {
+      "name": "喜欢红茶",
+      "passiveIcon": "蕾米喜欢红茶.png"
+    },
+    {
+      "name": "恶魔之王",
+      "passiveIcon": "蕾米恶魔之王.png"
+    }
+  ],
+  "hp": 64,
   "armor": 4,
   "slowspeed": 3.5,
   "speed": 4.8,
   "sight": 18,
   "attack": "9*4",
   "attackSpeed": 1.15,
-  "distance": 6.25,
+  "distance": 5.75,
   "upgradeSkill": [
     {
       "name": "红蝙蝠「吸血鬼之夜」",
       "introduction": "大小姐1升级",
       "icon": "蕾米-蝙蝠.png",
       "view": "蕾米莉亚：蝙蝠.png",
-      "cost": 6
+      "cost": 8
     },
     {
       "name": "神枪「冈格尼尔」",
@@ -45,5 +55,10 @@
       "cost": 5
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

@@ -20,7 +20,9 @@
     "手短",
     "容易送"
   ],
-  "hp": 30,
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
+  "hp": 32,
   "armor": 2,
   "slowspeed": 2.7,
   "speed": 3,
@@ -44,5 +46,10 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 250,
+  "goldAmount": 3150,
+  "rankDescription": "进阶兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

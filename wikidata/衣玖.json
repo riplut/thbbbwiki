@@ -1,6 +1,6 @@
 {
   "cardID": "衣玖",
-  "id": 37,
+  "id": 38,
   "oderID": 21,
   "shortName": "衣玖",
   "fullName": "永江衣玖",
@@ -14,13 +14,19 @@
     "地面",
     "远程",
     "施法者",
-    "电流",
     "闪电",
     "破坏阵型",
     "高伤害",
     "手短"
   ],
-  "hp": 70,
+  "passiveSkillCount": 1,
+  "passiveSkill": [
+    {
+      "name": "电流",
+      "passiveIcon": "电流.png"
+    }
+  ],
+  "hp": 74,
   "armor": 4,
   "slowspeed": 3.5,
   "speed": 4.8,
@@ -44,5 +50,12 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 150,
+  "goldAmount": 1350,
+  "rankDescription": "普通兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

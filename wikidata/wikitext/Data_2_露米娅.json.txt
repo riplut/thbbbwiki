@@ -13,11 +13,13 @@
     "对地",
     "地面",
     "近战",
-    "肉盾",
+    "战士",
     "扰乱",
     "高血量"
   ],
-  "hp": 40,
+  "passiveSkillCount": 0,
+  "passiveSkill": [],
+  "hp": 39,
   "armor": 3,
   "slowspeed": 3.5,
   "speed": 6.5,
@@ -41,5 +43,12 @@
       "cost": 2
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": true,
+  "live2DBbbStarAmount": 150,
+  "live2DGoldAmount": 4000,
   "category": "兵种"
 }

@@ -1,6 +1,6 @@
 {
   "cardID": "幽香",
-  "id": 54,
+  "id": 55,
   "oderID": 39,
   "shortName": "幽香",
   "fullName": "风见幽香",
@@ -13,13 +13,22 @@
     "对空/地",
     "地面",
     "远程",
-    "召唤师",
-    "种花",
-    "浇水",
+    "施法者",
     "手长",
     "撤退",
     "高伤害",
     "沉迷种花"
+  ],
+  "passiveSkillCount": 2,
+  "passiveSkill": [
+    {
+      "name": "种花",
+      "passiveIcon": "种花.png"
+    },
+    {
+      "name": "浇水",
+      "passiveIcon": "幽香浇水.png"
+    }
   ],
   "hp": 42,
   "armor": 2,
@@ -45,5 +54,10 @@
       "cost": 6
     }
   ],
+  "bbbStarAmount": 350,
+  "goldAmount": 4800,
+  "rankDescription": "专家兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }

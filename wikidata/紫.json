@@ -1,6 +1,6 @@
 {
   "cardID": "紫",
-  "id": 55,
+  "id": 56,
   "oderID": 45,
   "shortName": "紫",
   "fullName": "八云紫",
@@ -14,12 +14,24 @@
     "地面",
     "远程",
     "射手",
-    "快速支援",
-    "弹幕结界",
-    "隙间",
     "高伤害",
     "扰乱",
     "容易送"
+  ],
+  "passiveSkillCount": 3,
+  "passiveSkill": [
+    {
+      "name": "快速支援",
+      "passiveIcon": "紫快速支援.png"
+    },
+    {
+      "name": "弹幕结界",
+      "passiveIcon": "紫弹幕结界.png"
+    },
+    {
+      "name": "隙间",
+      "passiveIcon": "四季隙间.png"
+    }
   ],
   "hp": 55,
   "armor": 2,
@@ -45,5 +57,10 @@
       "cost": 4
     }
   ],
+  "bbbStarAmount": 100,
+  "goldAmount": 450,
+  "rankDescription": "新手兵种",
+  "isSkin": false,
+  "isLive2D": false,
   "category": "兵种"
 }
