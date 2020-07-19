@@ -1,5 +1,5 @@
 // const version = require('./migrate-wiki');
-const version={ version: 20200102};
+const version={ version: 20200716};
 const fs = require('fs');
 const xlsx = require('xlsx');
 const Papa = require('papaparse');
@@ -16,6 +16,7 @@ const heroes = load('heroes','heroes');
 const goods = load('lobby/Goods','Sheet1');
 const cardSkin = load('lobby/CardSkin','Sheet1');
 const live2D = load('lobby/Kanbanmusume','Sheet1');
+const adventure_item=load('wiki/Item_Config','Sheet1');
 
 function load(filename, sheetname) {
   const dir = path.join('database', 'production');
@@ -135,13 +136,15 @@ for (const item of publishedCard) {
 
 
   //
-  itemtemp.hp = getVal(item.cardName, constructions, '血量');
-  itemtemp.armor = getVal(item.cardName, constructions, '护甲');
+
   const unit=getVal(item.cardName, constructions, 'unit');
+  itemtemp.hp = getVal(unit, units, 'hp');
+  itemtemp.armor = getVal(unit, units, '减法护甲');
   itemtemp.slowspeed = getVal(unit, units, 'slowspeed');
   itemtemp.speed = getVal(unit, units, 'speed');
   itemtemp.sight = getVal(unit, units, '视野');
-  itemtemp.attack = getVal(item.cardName, constructions, '攻击');
+  const attackName=getVal(unit, units, 'skill_0_id');
+  itemtemp.attack = getVal(attackName, skills, 'atk');
 
   itemtemp.attackSpeed = getVal(getVal(unit, units, 'skill_0_id'), skills, 'agi');
   itemtemp.distance = getVal(getVal(unit, units, 'skill_0_id'), skills, 'distance');
@@ -188,7 +191,7 @@ for (const item of publishedCard) {
 
 //英雄
 for (const item of heroes) {
-  if (item.gameId <= 5) {
+  if (item.itemId) {
     let itemtemp = {
       id: []
     };
@@ -248,6 +251,31 @@ for (let data of [...Object.values(_locales)]) {
   _.remove(data, item => item.id === null || item.id === undefined);
 }
 
+//冒险
+for(let item of adventure_item){
+  outputName=item['名字'];
+  let itemtemp = {
+    '类别': []
+  };
+  itemtemp['类别']=item['类别'];
+  itemtemp['名字']=item['名字'];
+  itemtemp['图标']=item['图标'];
+  itemtemp['说明']=item['说明'];
+  itemtemp['价格']=item['价格'];
+  itemtemp['系数']=item['系数'];
+  if(item['英雄限制'])
+  itemtemp['英雄限制']=item['英雄限制'];
+  if(item['分类'])
+  //itemtemp['分类']=item['分类'].replace(/普通|稀有|后期/g, '').replace(/(.).*\1/g,"$1").split(',');
+  item['分类'].split("，").forEach((item, index, array) => {
+    if(item=="事件获取(固定)")itemtemp[`分类0`] = item
+  });
+  itemtemp['吐槽和俏皮话']=item['吐槽和俏皮话'];
+  itemtemp['DLC']=item['DLC']?`终极审判`:'非DLC道具';
+  itemtemp['Category']='冒险道具';
+  //console.log(item);
+  save(`item_1_${outputName}`, itemtemp);
+}
 //被动图标表
 /*_.remove(tips, item => item.id === null || item.id === undefined);
 for (let data of [...Object.values(tips)]) {
@@ -266,3 +294,6 @@ const _tips={
 save('locales', _locales);
 //save('tips',_tips);
 save('version',version);
+
+
+
